@@ -1,0 +1,6094 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<External>null</External>
+	<External>nil</External>
+	<Item class="Model" referent="RBX0">
+		<Properties>
+			<CoordinateFrame name="ModelInPrimary">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<R00>1</R00>
+				<R01>0</R01>
+				<R02>0</R02>
+				<R10>0</R10>
+				<R11>1</R11>
+				<R12>0</R12>
+				<R20>0</R20>
+				<R21>0</R21>
+				<R22>1</R22>
+			</CoordinateFrame>
+			<string name="Name">Teleporter</string>
+			<Ref name="PrimaryPart">null</Ref>
+		</Properties>
+		<Item class="WedgePart" referent="RBX1">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">194</int>
+				<CoordinateFrame name="CFrame">
+					<X>5</X>
+					<Y>1.70000005</Y>
+					<Z>-1</Z>
+					<R00>0</R00>
+					<R01>-1</R01>
+					<R02>0</R02>
+					<R10>1</R10>
+					<R11>-0</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>-0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">1056</token>
+				<string name="Name">stairs</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<Vector3 name="size">
+					<X>1</X>
+					<Y>4</Y>
+					<Z>4</Z>
+				</Vector3>
+			</Properties>
+			<Item class="ManualWeld" referent="RBX2">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>-0.5</X>
+						<Y>-2</Y>
+						<Z>2</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>-2.00043488</X>
+						<Y>-0.500095844</Y>
+						<Z>1.99975014</Z>
+						<R00>-4.9324437e-005</R00>
+						<R01>0.999999881</R01>
+						<R02>3.53812857e-006</R02>
+						<R10>1.00001395</R10>
+						<R11>4.92333056e-005</R11>
+						<R12>1.78952178e-008</R12>
+						<R20>1.8189894e-008</R20>
+						<R21>3.746434e-006</R21>
+						<R22>-1.00001454</R22>
+					</CoordinateFrame>
+					<string name="Name">stairs-to-stairs Strong Joint</string>
+					<Ref name="Part0">RBX1</Ref>
+					<Ref name="Part1">RBX3</Ref>
+					<int name="Surface0">0</int>
+					<int name="Surface1">2</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX4">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>0.5</X>
+						<Y>-2</Y>
+						<Z>-2</Z>
+						<R00>0</R00>
+						<R01>0</R01>
+						<R02>1</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>-1</R20>
+						<R21>0</R21>
+						<R22>0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>-0.500048399</X>
+						<Y>-1.49997425</Y>
+						<Z>-2.50014877</Z>
+						<R00>-1.80989446e-008</R00>
+						<R01>-6.66823325e-007</R01>
+						<R02>1.00001431</R02>
+						<R10>1.12434291e-005</R10>
+						<R11>0.99999994</R11>
+						<R12>5.76419552e-007</R12>
+						<R20>-1.00001478</R20>
+						<R21>1.10940073e-005</R21>
+						<R22>-1.85173121e-008</R22>
+					</CoordinateFrame>
+					<string name="Name">stairs-to-stairs Strong Joint</string>
+					<Ref name="Part0">RBX1</Ref>
+					<Ref name="Part1">RBX5</Ref>
+					<int name="Surface0">2</int>
+					<int name="Surface1">3</int>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part" referent="RBX6">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">194</int>
+				<CoordinateFrame name="CFrame">
+					<X>9</X>
+					<Y>1.70000005</Y>
+					<Z>-1</Z>
+					<R00>-0.000126452229</R00>
+					<R01>6.2613959e-005</R01>
+					<R02>-1</R02>
+					<R10>-6.32547963e-005</R10>
+					<R11>1</R11>
+					<R12>6.26219626e-005</R12>
+					<R20>1</R20>
+					<R21>6.32627125e-005</R21>
+					<R22>-0.000126448271</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">1056</token>
+				<string name="Name">stairs</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>4</X>
+					<Y>1</Y>
+					<Z>4</Z>
+				</Vector3>
+			</Properties>
+			<Item class="ManualWeld" referent="RBX7">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>-2</X>
+						<Y>-0.5</Y>
+						<Z>2</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>-0.499769926</X>
+						<Y>-2.00050449</Y>
+						<Z>-2.0000577</Z>
+						<R00>-6.32546071e-005</R00>
+						<R01>1.00001478</R01>
+						<R02>6.26631081e-005</R02>
+						<R10>0.000126878018</R10>
+						<R11>-6.27446279e-005</R11>
+						<R12>1.00000012</R12>
+						<R20>1.00001478</R20>
+						<R21>6.32621377e-005</R21>
+						<R22>-0.000127010557</R22>
+					</CoordinateFrame>
+					<string name="Name">stairs-to-stairs Strong Joint</string>
+					<Ref name="Part0">RBX6</Ref>
+					<Ref name="Part1">RBX1</Ref>
+					<int name="Surface0">2</int>
+					<int name="Surface1">4</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX8">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>2</X>
+						<Y>-0.5</Y>
+						<Z>2</Z>
+						<R00>-0</R00>
+						<R01>0</R01>
+						<R02>1</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>-1</R20>
+						<R21>0</R21>
+						<R22>-0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>-2.00002384</X>
+						<Y>2.00001335</Y>
+						<Z>1.20042968</Z>
+						<R00>2.22705785e-005</R00>
+						<R01>1.04929641e-005</R01>
+						<R02>1.00001478</R02>
+						<R10>-1</R10>
+						<R11>5.20288959e-005</R11>
+						<R12>2.20905913e-005</R12>
+						<R20>-5.21165239e-005</R20>
+						<R21>-1.00001431</R21>
+						<R22>1.04944966e-005</R22>
+					</CoordinateFrame>
+					<string name="Name">stairs-to-telepad Strong Joint</string>
+					<Ref name="Part0">RBX6</Ref>
+					<Ref name="Part1">RBX9</Ref>
+					<int name="Surface0">0</int>
+					<int name="Surface1">3</int>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="WedgePart" referent="RBX5">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">199</int>
+				<CoordinateFrame name="CFrame">
+					<X>5.50000048</X>
+					<Y>2.70000005</Y>
+					<Z>-0.5</Z>
+					<R00>7.12054714e-007</R00>
+					<R01>-1</R01>
+					<R02>-1.13243159e-005</R02>
+					<R10>1</R10>
+					<R11>7.12054941e-007</R11>
+					<R12>-1.78723365e-008</R12>
+					<R20>1.78804012e-008</R20>
+					<R21>-1.13243159e-005</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">1056</token>
+				<string name="Name">stairs</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<Vector3 name="size">
+					<X>1</X>
+					<Y>3</Y>
+					<Z>3</Z>
+				</Vector3>
+			</Properties>
+			<Item class="ManualWeld" referent="RBX10">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>-0.5</X>
+						<Y>-1.5</Y>
+						<Z>1.5</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>1.49909782</X>
+						<Y>-0.500175238</Y>
+						<Z>-1.99967289</Z>
+						<R00>-3.57436948e-005</R00>
+						<R01>-0.99999994</R01>
+						<R02>-1.1154928e-005</R02>
+						<R10>1.00001431</R10>
+						<R11>-3.58341495e-005</R11>
+						<R12>5.18977831e-005</R12>
+						<R20>-5.18985871e-005</R20>
+						<R21>-1.13292463e-005</R21>
+						<R22>1.00001478</R22>
+					</CoordinateFrame>
+					<string name="Name">stairs-to-stairs Strong Joint</string>
+					<Ref name="Part0">RBX5</Ref>
+					<Ref name="Part1">RBX11</Ref>
+					<int name="Surface0">0</int>
+					<int name="Surface1">5</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX12">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>0.5</X>
+						<Y>-1.5</Y>
+						<Z>-1.5</Z>
+						<R00>0</R00>
+						<R01>0</R01>
+						<R02>1</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>-1</R20>
+						<R21>0</R21>
+						<R22>0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>2.01844501</X>
+						<Y>-1.30149937</Y>
+						<Z>-1.58713484</Z>
+						<R00>-0.000429836859</R00>
+						<R01>-0.999999821</R01>
+						<R02>-6.13952507e-005</R02>
+						<R10>-6.2885847e-005</R10>
+						<R11>-6.14577148e-005</R11>
+						<R12>1.00001431</R12>
+						<R20>-1.00001466</R20>
+						<R21>0.000429657957</R21>
+						<R22>-6.28598573e-005</R22>
+					</CoordinateFrame>
+					<string name="Name">stairs-to-invis Strong Joint</string>
+					<Ref name="Part0">RBX5</Ref>
+					<Ref name="Part1">RBX13</Ref>
+					<int name="Surface0">2</int>
+					<int name="Surface1">4</int>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part" referent="RBX14">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">194</int>
+				<CoordinateFrame name="CFrame">
+					<X>4.08100033</X>
+					<Y>3.20200014</Y>
+					<Z>-1.11300004</Z>
+					<R00>0.999999881</R00>
+					<R01>6.11914147e-005</R01>
+					<R02>-0.000442124699</R02>
+					<R10>-6.12192161e-005</R10>
+					<R11>1</R11>
+					<R12>-6.28722046e-005</R12>
+					<R20>0.000442120858</R20>
+					<R21>6.28992639e-005</R21>
+					<R22>0.999999881</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">1056</token>
+				<string name="Name">stairs</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>1</X>
+					<Y>4</Y>
+					<Z>1</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="Part" referent="RBX15">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">199</int>
+				<CoordinateFrame name="CFrame">
+					<X>9</X>
+					<Y>2.70000005</Y>
+					<Z>-0.5</Z>
+					<R00>9.77971722e-005</R00>
+					<R01>4.95027052e-005</R01>
+					<R02>1</R02>
+					<R10>6.76582349e-005</R10>
+					<R11>1</R11>
+					<R12>-4.95093227e-005</R12>
+					<R20>-1</R20>
+					<R21>6.76630734e-005</R21>
+					<R22>9.7793818e-005</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">1056</token>
+				<string name="Name">stairs</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>3</X>
+					<Y>1</Y>
+					<Z>4</Z>
+				</Vector3>
+			</Properties>
+			<Item class="ManualWeld" referent="RBX16">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>-1.5</X>
+						<Y>-0.5</Y>
+						<Z>2</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>-0.499821663</X>
+						<Y>-1.49977303</Y>
+						<Z>1.50019455</Z>
+						<R00>0.000191551051</R00>
+						<R01>1.00001514</R01>
+						<R02>-0.000122901401</R02>
+						<R10>1.0000149</R10>
+						<R11>-0.000191551546</R11>
+						<R12>-7.54004395e-006</R12>
+						<R20>-7.4048171e-006</R20>
+						<R21>-0.000122990852</R21>
+						<R22>-1.00000048</R22>
+					</CoordinateFrame>
+					<string name="Name">stairs-to-stairs Strong Joint</string>
+					<Ref name="Part0">RBX15</Ref>
+					<Ref name="Part1">RBX17</Ref>
+					<int name="Surface0">2</int>
+					<int name="Surface1">0</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX18">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>1.5</X>
+						<Y>-0.5</Y>
+						<Z>2</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>0</R11>
+						<R12>-1</R12>
+						<R20>-0</R20>
+						<R21>1</R21>
+						<R22>0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>-1.00034809</X>
+						<Y>0.500312924</Y>
+						<Z>-1.99996376</Z>
+						<R00>-1.0000149</R00>
+						<R01>-2.87391522e-005</R01>
+						<R02>-4.40202803e-006</R02>
+						<R10>4.40210442e-006</R10>
+						<R11>1.32873984e-005</R11>
+						<R12>-1.00001526</R12>
+						<R20>2.88357078e-005</R20>
+						<R21>-1.00000036</R21>
+						<R22>-1.31983907e-005</R22>
+					</CoordinateFrame>
+					<string name="Name">stairs-to-stairs Strong Joint</string>
+					<Ref name="Part0">RBX15</Ref>
+					<Ref name="Part1">RBX6</Ref>
+					<int name="Surface0">4</int>
+					<int name="Surface1">1</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX19">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>1.5</X>
+						<Y>-0.5</Y>
+						<Z>-2</Z>
+						<R00>-1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>-1</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>-0.499634504</X>
+						<Y>-1.50038815</Y>
+						<Z>-1.50041866</Z>
+						<R00>-6.76408745e-005</R00>
+						<R01>1.00001431</R01>
+						<R02>4.87084726e-005</R02>
+						<R10>8.6511609e-005</R10>
+						<R11>-4.87923098e-005</R11>
+						<R12>0.99999994</R12>
+						<R20>1.00001478</R20>
+						<R21>6.76446944e-005</R21>
+						<R22>-8.66859336e-005</R22>
+					</CoordinateFrame>
+					<string name="Name">stairs-to-stairs Strong Joint</string>
+					<Ref name="Part0">RBX15</Ref>
+					<Ref name="Part1">RBX5</Ref>
+					<int name="Surface0">5</int>
+					<int name="Surface1">4</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX20">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>-1.5</X>
+						<Y>-0.5</Y>
+						<Z>-2</Z>
+						<R00>-0</R00>
+						<R01>0</R01>
+						<R02>-1</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>1</R20>
+						<R21>0</R21>
+						<R22>-0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>-2.00034332</X>
+						<Y>2.00001717</Y>
+						<Z>0.200229406</Z>
+						<R00>-6.38580923e-006</R00>
+						<R01>1.48947693e-005</R01>
+						<R02>1.00001478</R02>
+						<R10>-1</R10>
+						<R11>6.51400624e-005</R11>
+						<R12>-6.56581005e-006</R12>
+						<R20>-6.52282106e-005</R20>
+						<R21>-1.00001431</R21>
+						<R22>1.48947183e-005</R22>
+					</CoordinateFrame>
+					<string name="Name">stairs-to-telepad Strong Joint</string>
+					<Ref name="Part0">RBX15</Ref>
+					<Ref name="Part1">RBX9</Ref>
+					<int name="Surface0">3</int>
+					<int name="Surface1">3</int>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part" referent="RBX21">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">1002</int>
+				<CoordinateFrame name="CFrame">
+					<X>4.18100023</X>
+					<Y>4.70200014</Y>
+					<Z>-1.81300008</Z>
+					<R00>0.999999881</R00>
+					<R01>6.10118514e-005</R01>
+					<R02>-0.00044223218</R02>
+					<R10>-6.10396601e-005</R10>
+					<R11>1</R11>
+					<R12>-6.28720154e-005</R12>
+					<R20>0.000442228338</R20>
+					<R21>6.28990019e-005</R21>
+					<R22>0.999999881</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">256</token>
+				<string name="Name">sign</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>3.20000029</X>
+					<Y>2.59999967</Y>
+					<Z>0.400000036</Z>
+				</Vector3>
+			</Properties>
+			<Item class="ManualWeld" referent="RBX22">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>-1.60000014</X>
+						<Y>-1.29999983</Y>
+						<Z>0.200000018</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>-1.50044012</X>
+						<Y>0.200184822</Y>
+						<Z>-0.499995232</Z>
+						<R00>1.00000048</R00>
+						<R01>-9.08403308e-008</R01>
+						<R02>-1.47822776e-009</R02>
+						<R10>1.79561539e-007</R10>
+						<R11>1.00001526</R11>
+						<R12>-2.58296495e-010</R12>
+						<R20>1.0748478e-007</R20>
+						<R21>-1.8189894e-010</R21>
+						<R22>1.00001502</R22>
+					</CoordinateFrame>
+					<string name="Name">sign-to-stairs Strong Joint</string>
+					<Ref name="Part0">RBX21</Ref>
+					<Ref name="Part1">RBX14</Ref>
+					<int name="Surface0">2</int>
+					<int name="Surface1">5</int>
+				</Properties>
+			</Item>
+			<Item class="Script" referent="RBX23">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">SignScript</string>
+					<ProtectedString name="Source">local sign = script.Parent 
+local teleporter = sign.Parent 
+
+local placeId = teleporter.PlaceId
+local decal
+local tex
+
+if placeId then 
+&#9;placeId = placeId.Value
+&#9;decal = script.Parent.Decal
+&#9;tex = &quot;http://www.roblox.com/Thumbs/Asset.ashx?format=png&amp;width=420&amp;height=230&amp;assetId=&quot; ..placeId
+&#9;decal.Texture = tex
+end
+
+
+
+</ProtectedString>
+				</Properties>
+			</Item>
+			<Item class="Decal" referent="RBX24">
+				<Properties>
+					<token name="Face">5</token>
+					<string name="Name">Decal</string>
+					<float name="Shiny">20</float>
+					<float name="Specular">0</float>
+					<Content name="Texture"><null></null></Content>
+					<float name="Transparency">0</float>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part" referent="RBX13">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">1002</int>
+				<CoordinateFrame name="CFrame">
+					<X>4.98100042</X>
+					<Y>4.50200033</Y>
+					<Z>-0.413000017</Z>
+					<R00>0.999999881</R00>
+					<R01>6.19899438e-005</R01>
+					<R02>-0.000441171316</R02>
+					<R10>-6.2017687e-005</R10>
+					<R11>1</R11>
+					<R12>-6.2876119e-005</R12>
+					<R20>0.000441167416</R20>
+					<R21>6.29034766e-005</R21>
+					<R22>0.999999881</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">false</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">256</token>
+				<string name="Name">invis</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">1</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>3.60000038</X>
+					<Y>2.59999967</Y>
+					<Z>0.400000036</Z>
+				</Vector3>
+			</Properties>
+			<Item class="ManualWeld" referent="RBX25">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>1.80000019</X>
+						<Y>-1.29999983</Y>
+						<Z>-0.200000018</Z>
+						<R00>-1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>-1</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>2.70006347</X>
+						<Y>7.22408295e-005</Y>
+						<Z>0.499432087</Z>
+						<R00>-1.00000083</R00>
+						<R01>7.98520887e-007</R01>
+						<R02>-9.53409938e-007</R02>
+						<R10>7.09788765e-007</R10>
+						<R11>1.00001526</R11>
+						<R12>3.86353349e-009</R12>
+						<R20>8.47409069e-007</R20>
+						<R21>3.41879058e-009</R21>
+						<R22>-1.00001538</R22>
+					</CoordinateFrame>
+					<string name="Name">stairs-to-stairs Strong Joint</string>
+					<Ref name="Part0">RBX13</Ref>
+					<Ref name="Part1">RBX14</Ref>
+					<int name="Surface0">5</int>
+					<int name="Surface1">2</int>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="WedgePart" referent="RBX17">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">199</int>
+				<CoordinateFrame name="CFrame">
+					<X>12.500001</X>
+					<Y>2.70000005</Y>
+					<Z>-0.499000013</Z>
+					<R00>-7.32862172e-005</R00>
+					<R01>9.01615931e-005</R01>
+					<R02>-1</R02>
+					<R10>1</R10>
+					<R11>-0.000123891485</R11>
+					<R12>-7.32973858e-005</R12>
+					<R20>-0.000123898091</R20>
+					<R21>-1</R21>
+					<R22>-9.01525127e-005</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">1056</token>
+				<string name="Name">stairs</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<Vector3 name="size">
+					<X>1</X>
+					<Y>3</Y>
+					<Z>3</Z>
+				</Vector3>
+			</Properties>
+			<Item class="ManualWeld" referent="RBX26">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>-0.5</X>
+						<Y>-1.5</Y>
+						<Z>1.5</Z>
+						<R00>0</R00>
+						<R01>0</R01>
+						<R02>-1</R02>
+						<R10>-0</R10>
+						<R11>1</R11>
+						<R12>-0</R12>
+						<R20>1</R20>
+						<R21>0</R21>
+						<R22>0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>0.500060678</X>
+						<Y>-2.00015402</Y>
+						<Z>1.99969101</Z>
+						<R00>-7.26596772e-005</R00>
+						<R01>-0.000123518344</R01>
+						<R02>-1.00001526</R02>
+						<R10>-0.000169215462</R10>
+						<R11>1.00001502</R11>
+						<R12>-0.00012350647</R12>
+						<R20>1.00000048</R20>
+						<R21>0.000169304767</R21>
+						<R22>-7.25889695e-005</R22>
+					</CoordinateFrame>
+					<string name="Name">stairs-to-stairs Strong Joint</string>
+					<Ref name="Part0">RBX17</Ref>
+					<Ref name="Part1">RBX27</Ref>
+					<int name="Surface0">3</int>
+					<int name="Surface1">2</int>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="WedgePart" referent="RBX27">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">194</int>
+				<CoordinateFrame name="CFrame">
+					<X>13.000001</X>
+					<Y>1.70000005</Y>
+					<Z>-0.999000072</Z>
+					<R00>-7.31390287e-007</R00>
+					<R01>0.000259461289</R01>
+					<R02>-0.99999994</R02>
+					<R10>1</R10>
+					<R11>-3.74429163e-007</R11>
+					<R12>-7.31487432e-007</R12>
+					<R20>-3.74618963e-007</R20>
+					<R21>-0.99999994</R21>
+					<R22>-0.000259461318</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">1056</token>
+				<string name="Name">stairs</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<Vector3 name="size">
+					<X>1</X>
+					<Y>4</Y>
+					<Z>4</Z>
+				</Vector3>
+			</Properties>
+			<Item class="ManualWeld" referent="RBX28">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>-0.5</X>
+						<Y>-2</Y>
+						<Z>2</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>1.9998126</X>
+						<Y>-0.499924064</Y>
+						<Z>-2.00000381</Z>
+						<R00>-6.36298064e-005</R00>
+						<R01>-1.00001502</R01>
+						<R02>-0.000133016671</R02>
+						<R10>1.00001526</R10>
+						<R11>-6.36209152e-005</R11>
+						<R12>-6.36281038e-005</R12>
+						<R20>6.35300239e-005</R20>
+						<R21>-0.000132921923</R21>
+						<R22>1.00000048</R22>
+					</CoordinateFrame>
+					<string name="Name">stairs-to-stairs Strong Joint</string>
+					<Ref name="Part0">RBX27</Ref>
+					<Ref name="Part1">RBX6</Ref>
+					<int name="Surface0">0</int>
+					<int name="Surface1">5</int>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part" referent="RBX29">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">194</int>
+				<CoordinateFrame name="CFrame">
+					<X>12.9990005</X>
+					<Y>1.70000005</Y>
+					<Z>3.00100017</Z>
+					<R00>-0.99999994</R00>
+					<R01>6.12389849e-005</R01>
+					<R02>0.000317831873</R02>
+					<R10>6.12596486e-005</R10>
+					<R11>1</R11>
+					<R12>6.50184593e-005</R12>
+					<R20>-0.000317827857</R20>
+					<R21>6.50379297e-005</R21>
+					<R22>-0.99999994</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">1056</token>
+				<string name="Name">stairs</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>4</X>
+					<Y>1</Y>
+					<Z>4</Z>
+				</Vector3>
+			</Properties>
+			<Item class="ManualWeld" referent="RBX30">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>-2</X>
+						<Y>-0.5</Y>
+						<Z>2</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>-0.500255942</X>
+						<Y>-2.00026178</Y>
+						<Z>-2</Z>
+						<R00>6.20817591e-005</R00>
+						<R01>1.00001526</R01>
+						<R02>6.53938114e-005</R02>
+						<R10>5.81976637e-005</R10>
+						<R11>-6.53969764e-005</R11>
+						<R12>1.00001502</R12>
+						<R20>1.00000048</R20>
+						<R21>-6.21676008e-005</R21>
+						<R22>-5.81001477e-005</R22>
+					</CoordinateFrame>
+					<string name="Name">stairs-to-stairs Strong Joint</string>
+					<Ref name="Part0">RBX29</Ref>
+					<Ref name="Part1">RBX27</Ref>
+					<int name="Surface0">2</int>
+					<int name="Surface1">4</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX31">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>2</X>
+						<Y>-0.5</Y>
+						<Z>-2</Z>
+						<R00>-1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>-1</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>-0.500066876</X>
+						<Y>-2.00089455</Y>
+						<Z>2.00000095</Z>
+						<R00>-1.17515774e-005</R00>
+						<R01>1.00001478</R01>
+						<R02>-3.36764642e-005</R02>
+						<R10>1.00000024</R10>
+						<R11>1.18330327e-005</R11>
+						<R12>-0.00021972807</R12>
+						<R20>-0.000219868365</R20>
+						<R21>-3.36786288e-005</R21>
+						<R22>-1.0000149</R22>
+					</CoordinateFrame>
+					<string name="Name">stairs-to-stairs Strong Joint</string>
+					<Ref name="Part0">RBX29</Ref>
+					<Ref name="Part1">RBX32</Ref>
+					<int name="Surface0">5</int>
+					<int name="Surface1">0</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX33">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>2</X>
+						<Y>-0.5</Y>
+						<Z>2</Z>
+						<R00>-0</R00>
+						<R01>0</R01>
+						<R02>1</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>-1</R20>
+						<R21>0</R21>
+						<R22>-0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>-2.00009155</X>
+						<Y>-1.99999237</Y>
+						<Z>1.20020235</Z>
+						<R00>1.00001478</R00>
+						<R01>1.22685906e-005</R01>
+						<R02>-0.000213578402</R02>
+						<R10>0.000213395469</R10>
+						<R11>5.35357394e-005</R11>
+						<R12>1</R12>
+						<R20>1.22804104e-005</R20>
+						<R21>-1.00001431</R21>
+						<R22>5.36210027e-005</R22>
+					</CoordinateFrame>
+					<string name="Name">stairs-to-telepad Strong Joint</string>
+					<Ref name="Part0">RBX29</Ref>
+					<Ref name="Part1">RBX9</Ref>
+					<int name="Surface0">0</int>
+					<int name="Surface1">4</int>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part" referent="RBX34">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">199</int>
+				<CoordinateFrame name="CFrame">
+					<X>12.500001</X>
+					<Y>2.70000005</Y>
+					<Z>3.00100017</Z>
+					<R00>0.99999994</R00>
+					<R01>6.08118426e-005</R01>
+					<R02>-0.000310733594</R02>
+					<R10>-6.08541122e-005</R10>
+					<R11>1</R11>
+					<R12>-0.000136025541</R12>
+					<R20>0.000310725329</R20>
+					<R21>0.000136044444</R21>
+					<R22>0.99999994</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">1056</token>
+				<string name="Name">stairs</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>3</X>
+					<Y>1</Y>
+					<Z>4</Z>
+				</Vector3>
+			</Properties>
+			<Item class="ManualWeld" referent="RBX35">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>1.5</X>
+						<Y>-0.5</Y>
+						<Z>-2</Z>
+						<R00>-1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>-1</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>-0.500381231</X>
+						<Y>-1.50048828</Y>
+						<Z>-1.49981117</Z>
+						<R00>0.000134581715</R00>
+						<R01>1.00001526</R01>
+						<R02>0.000259905704</R02>
+						<R10>0.000219975831</R10>
+						<R11>-0.000259934837</R11>
+						<R12>1.00001502</R12>
+						<R20>1.00000048</R20>
+						<R21>-0.000134615257</R21>
+						<R22>-0.000219911773</R22>
+					</CoordinateFrame>
+					<string name="Name">stairs-to-stairs Strong Joint</string>
+					<Ref name="Part0">RBX34</Ref>
+					<Ref name="Part1">RBX17</Ref>
+					<int name="Surface0">5</int>
+					<int name="Surface1">4</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX36">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>1.5</X>
+						<Y>-0.5</Y>
+						<Z>2</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>0</R11>
+						<R12>-1</R12>
+						<R20>-0</R20>
+						<R21>1</R21>
+						<R22>0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>-1.00008774</X>
+						<Y>0.499822497</Y>
+						<Z>-1.99981689</Z>
+						<R00>-1.00000048</R00>
+						<R01>-7.57009047e-006</R01>
+						<R02>-4.9866685e-008</R02>
+						<R10>1.39135409e-007</R10>
+						<R11>-7.10088498e-005</R11>
+						<R12>-1.00001526</R12>
+						<R20>7.46776641e-006</R20>
+						<R21>-1.00001502</R21>
+						<R22>7.10083696e-005</R22>
+					</CoordinateFrame>
+					<string name="Name">stairs-to-stairs Strong Joint</string>
+					<Ref name="Part0">RBX34</Ref>
+					<Ref name="Part1">RBX29</Ref>
+					<int name="Surface0">4</int>
+					<int name="Surface1">1</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX37">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>-1.5</X>
+						<Y>-0.5</Y>
+						<Z>2</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>-0.50002265</X>
+						<Y>-1.50000191</Y>
+						<Z>1.49994659</Z>
+						<R00>6.54851538e-005</R00>
+						<R01>1.00001431</R01>
+						<R02>-0.000136583229</R02>
+						<R10>1</R10>
+						<R11>-6.54146497e-005</R11>
+						<R12>-0.000125893086</R12>
+						<R20>-0.000126085331</R20>
+						<R21>-0.000136574614</R21>
+						<R22>-1.00001478</R22>
+					</CoordinateFrame>
+					<string name="Name">stairs-to-stairs Strong Joint</string>
+					<Ref name="Part0">RBX34</Ref>
+					<Ref name="Part1">RBX38</Ref>
+					<int name="Surface0">2</int>
+					<int name="Surface1">0</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX39">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>-1.5</X>
+						<Y>-0.5</Y>
+						<Z>-2</Z>
+						<R00>-0</R00>
+						<R01>0</R01>
+						<R02>-1</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>1</R20>
+						<R21>0</R21>
+						<R22>-0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>-2.00032997</X>
+						<Y>-1.99999619</Y>
+						<Z>0.20010829</Z>
+						<R00>1.00001478</R00>
+						<R01>8.32767037e-005</R01>
+						<R02>-0.000206200086</R02>
+						<R10>0.000206013443</R10>
+						<R11>5.36459447e-005</R11>
+						<R12>1</R12>
+						<R20>8.32881124e-005</R20>
+						<R21>-1.00001431</R21>
+						<R22>5.37166852e-005</R22>
+					</CoordinateFrame>
+					<string name="Name">stairs-to-telepad Strong Joint</string>
+					<Ref name="Part0">RBX34</Ref>
+					<Ref name="Part1">RBX9</Ref>
+					<int name="Surface0">3</int>
+					<int name="Surface1">4</int>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part" referent="RBX3">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">194</int>
+				<CoordinateFrame name="CFrame">
+					<X>5</X>
+					<Y>1.70000005</Y>
+					<Z>3.00000024</Z>
+					<R00>-1</R00>
+					<R01>-4.93696789e-005</R01>
+					<R02>-3.66576637e-006</R02>
+					<R10>-4.93696789e-005</R10>
+					<R11>1</R11>
+					<R12>1.79689685e-008</R12>
+					<R20>3.66576546e-006</R20>
+					<R21>1.81499455e-008</R21>
+					<R22>-1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">1056</token>
+				<string name="Name">stairs</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>4</X>
+					<Y>1</Y>
+					<Z>4</Z>
+				</Vector3>
+			</Properties>
+			<Item class="ManualWeld" referent="RBX40">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>-2</X>
+						<Y>0.5</Y>
+						<Z>2</Z>
+						<R00>-1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>0</R11>
+						<R12>1</R12>
+						<R20>0</R20>
+						<R21>1</R21>
+						<R22>0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>1.49863243</X>
+						<Y>-0.500141621</Y>
+						<Z>-2.00008106</Z>
+						<R00>1</R00>
+						<R01>-3.83493489e-006</R01>
+						<R02>-8.57342602e-005</R02>
+						<R10>8.58246494e-005</R10>
+						<R11>-5.18982306e-005</R11>
+						<R12>1.00001431</R12>
+						<R20>-3.66342897e-006</R20>
+						<R21>-1.00001478</R21>
+						<R22>-5.18983179e-005</R22>
+					</CoordinateFrame>
+					<string name="Name">stairs-to-stairs Strong Joint</string>
+					<Ref name="Part0">RBX3</Ref>
+					<Ref name="Part1">RBX11</Ref>
+					<int name="Surface0">1</int>
+					<int name="Surface1">4</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX41">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>-2</X>
+						<Y>-0.5</Y>
+						<Z>-2</Z>
+						<R00>-0</R00>
+						<R01>0</R01>
+						<R02>-1</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>1</R20>
+						<R21>0</R21>
+						<R22>-0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>1.99978542</X>
+						<Y>2.00000954</Y>
+						<Z>1.20018435</Z>
+						<R00>-1.00001478</R00>
+						<R01>-5.27408301e-005</R01>
+						<R02>-0.000107833934</R02>
+						<R10>0.000108002809</R10>
+						<R11>0.000164017256</R11>
+						<R12>-1</R12>
+						<R20>5.27581324e-005</R20>
+						<R21>-1.00001431</R21>
+						<R22>-0.000164101031</R22>
+					</CoordinateFrame>
+					<string name="Name">stairs-to-telepad Strong Joint</string>
+					<Ref name="Part0">RBX3</Ref>
+					<Ref name="Part1">RBX9</Ref>
+					<int name="Surface0">3</int>
+					<int name="Surface1">1</int>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part" referent="RBX9">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">1019</int>
+				<CoordinateFrame name="CFrame">
+					<X>9</X>
+					<Y>2.4000001</Y>
+					<Z>3.00000024</Z>
+					<R00>-0.000104361083</R00>
+					<R01>-1</R01>
+					<R02>-0.000114555158</R02>
+					<R10>-5.27629927e-005</R10>
+					<R11>0.000114560666</R11>
+					<R12>-1</R12>
+					<R20>1</R20>
+					<R21>-0.000104355036</R21>
+					<R22>-5.27749435e-005</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">1536</token>
+				<string name="Name">telepad</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>4</X>
+					<Y>4</Y>
+					<Z>2.39999962</Z>
+				</Vector3>
+			</Properties>
+			<Item class="ManualWeld" referent="RBX42">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>2</X>
+						<Y>-2</Y>
+						<Z>-1.19999981</Z>
+						<R00>-1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>-1</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>2.00088406</X>
+						<Y>-4.90044737</Y>
+						<Z>-2.00054359</Z>
+						<R00>-1.00002277</R00>
+						<R01>-1.05691288e-005</R01>
+						<R02>2.68170447e-006</R02>
+						<R10>2.68168151e-006</R10>
+						<R11>6.54547184e-005</R11>
+						<R12>1.00002205</R12>
+						<R20>-1.03279754e-005</R20>
+						<R21>1.00000131</R21>
+						<R22>-6.55870681e-005</R22>
+					</CoordinateFrame>
+					<string name="Name">telepad-to-teleBeam Strong Joint</string>
+					<Ref name="Part0">RBX9</Ref>
+					<Ref name="Part1">RBX43</Ref>
+					<int name="Surface0">5</int>
+					<int name="Surface1">4</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX44">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>2</X>
+						<Y>-2</Y>
+						<Z>-1.19999981</Z>
+						<R00>-1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>-1</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>2.00045586</X>
+						<Y>-4.90023518</Y>
+						<Z>2.00097179</Z>
+						<R00>1.03478815e-005</R00>
+						<R01>-1.00000048</R01>
+						<R02>6.55424374e-005</R02>
+						<R10>2.68141821e-006</R10>
+						<R11>6.54983451e-005</R11>
+						<R12>1.00000739</R12>
+						<R20>-1.00000763</R20>
+						<R21>-1.04298451e-005</R21>
+						<R22>2.68187841e-006</R22>
+					</CoordinateFrame>
+					<string name="Name">telepad-to-teleBeam Strong Joint</string>
+					<Ref name="Part0">RBX9</Ref>
+					<Ref name="Part1">RBX45</Ref>
+					<int name="Surface0">5</int>
+					<int name="Surface1">4</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX46">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>2</X>
+						<Y>-2</Y>
+						<Z>-1.19999981</Z>
+						<R00>-1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>-1</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>2.00003433</X>
+						<Y>-4.90028334</Y>
+						<Z>2.00005913</Z>
+						<R00>-8.2906532e-005</R00>
+						<R01>-1.00000095</R01>
+						<R02>0.000114756782</R02>
+						<R10>5.29687095e-005</R10>
+						<R11>0.00011466349</R11>
+						<R12>1.00001478</R12>
+						<R20>-1.00001526</R20>
+						<R21>8.27469921e-005</R21>
+						<R22>5.29587378e-005</R22>
+					</CoordinateFrame>
+					<string name="Name">telepad-to-teleBeam Strong Joint</string>
+					<Ref name="Part0">RBX9</Ref>
+					<Ref name="Part1">RBX47</Ref>
+					<int name="Surface0">5</int>
+					<int name="Surface1">4</int>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part" referent="RBX11">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">199</int>
+				<CoordinateFrame name="CFrame">
+					<X>5.5010004</X>
+					<Y>2.70000005</Y>
+					<Z>3.00000024</Z>
+					<R00>1</R00>
+					<R01>3.61883176e-005</R01>
+					<R02>-5.29564034e-007</R02>
+					<R10>-3.61883467e-005</R10>
+					<R11>1</R11>
+					<R12>-5.19145433e-005</R12>
+					<R20>5.27685302e-007</R20>
+					<R21>5.19145615e-005</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">1056</token>
+				<string name="Name">stairs</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>3</X>
+					<Y>1</Y>
+					<Z>4</Z>
+				</Vector3>
+			</Properties>
+			<Item class="ManualWeld" referent="RBX48">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>1.5</X>
+						<Y>-0.5</Y>
+						<Z>2</Z>
+						<R00>-0</R00>
+						<R01>0</R01>
+						<R02>1</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>-1</R20>
+						<R21>0</R21>
+						<R22>-0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>1.99984264</X>
+						<Y>1.99882126</Y>
+						<Z>0.200228453</Z>
+						<R00>-1.00001478</R00>
+						<R01>-8.51820118e-007</R01>
+						<R02>-0.000103994425</R02>
+						<R10>0.00010417193</R10>
+						<R11>7.82775969e-005</R11>
+						<R12>-1</R12>
+						<R20>8.596013e-007</R20>
+						<R21>-1.00001431</R21>
+						<R22>-7.83657451e-005</R22>
+					</CoordinateFrame>
+					<string name="Name">stairs-to-telepad Strong Joint</string>
+					<Ref name="Part0">RBX11</Ref>
+					<Ref name="Part1">RBX9</Ref>
+					<int name="Surface0">0</int>
+					<int name="Surface1">1</int>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="WedgePart" referent="RBX32">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">194</int>
+				<CoordinateFrame name="CFrame">
+					<X>12.9990005</X>
+					<Y>1.69900012</Y>
+					<Z>7.0010004</Z>
+					<R00>4.95870809e-005</R00>
+					<R01>1</R01>
+					<R02>9.79583347e-005</R02>
+					<R10>1</R10>
+					<R11>-4.95901513e-005</R11>
+					<R12>3.13538258e-005</R12>
+					<R20>3.13586825e-005</R20>
+					<R21>9.79567849e-005</R21>
+					<R22>-1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">1056</token>
+				<string name="Name">stairs</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<Vector3 name="size">
+					<X>1</X>
+					<Y>4</Y>
+					<Z>4</Z>
+				</Vector3>
+			</Properties>
+			<Item class="ManualWeld" referent="RBX49">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>0.5</X>
+						<Y>-2</Y>
+						<Z>-2</Z>
+						<R00>0</R00>
+						<R01>0</R01>
+						<R02>1</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>-1</R20>
+						<R21>0</R21>
+						<R22>0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>-0.499905348</X>
+						<Y>-1.49885941</Y>
+						<Z>-2.50022507</Z>
+						<R00>-3.18822713e-005</R00>
+						<R01>7.70609404e-005</R01>
+						<R02>1.00001478</R02>
+						<R10>8.64099056e-005</R10>
+						<R11>1.00000024</R11>
+						<R12>-7.6970282e-005</R12>
+						<R20>-1.0000149</R20>
+						<R21>8.62686866e-005</R21>
+						<R22>-3.18884995e-005</R22>
+					</CoordinateFrame>
+					<string name="Name">stairs-to-stairs Strong Joint</string>
+					<Ref name="Part0">RBX32</Ref>
+					<Ref name="Part1">RBX38</Ref>
+					<int name="Surface0">2</int>
+					<int name="Surface1">3</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX50">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>0.5</X>
+						<Y>-2</Y>
+						<Z>2</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>0</R11>
+						<R12>-1</R12>
+						<R20>-0</R20>
+						<R21>1</R21>
+						<R22>0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>2.0000639</X>
+						<Y>0.500007153</Y>
+						<Z>1.99998856</Z>
+						<R00>3.40818806e-005</R00>
+						<R01>1.0000149</R01>
+						<R02>-0.000155972666</R02>
+						<R10>1.00001478</R10>
+						<R11>-3.40835031e-005</R11>
+						<R12>-1.30690159e-005</R12>
+						<R20>-1.29854916e-005</R20>
+						<R21>-0.000156111986</R21>
+						<R22>-1.00000024</R22>
+					</CoordinateFrame>
+					<string name="Name">stairs-to-stairs Strong Joint</string>
+					<Ref name="Part0">RBX32</Ref>
+					<Ref name="Part1">RBX51</Ref>
+					<int name="Surface0">4</int>
+					<int name="Surface1">2</int>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part" referent="RBX51">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">194</int>
+				<CoordinateFrame name="CFrame">
+					<X>8.99900055</X>
+					<Y>1.70000005</Y>
+					<Z>7.00000048</Z>
+					<R00>0.000253766135</R00>
+					<R01>6.25635512e-005</R01>
+					<R02>0.99999994</R02>
+					<R10>6.54278992e-005</R10>
+					<R11>1</R11>
+					<R12>-6.25801549e-005</R12>
+					<R20>-0.99999994</R20>
+					<R21>6.54437827e-005</R21>
+					<R22>0.00025376206</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">1056</token>
+				<string name="Name">stairs</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>4</X>
+					<Y>1</Y>
+					<Z>4</Z>
+				</Vector3>
+			</Properties>
+			<Item class="ManualWeld" referent="RBX52">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>2</X>
+						<Y>-0.5</Y>
+						<Z>-2</Z>
+						<R00>-1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>-1</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>0.500276327</X>
+						<Y>-1.99986935</Y>
+						<Z>2.00057888</Z>
+						<R00>-6.12339063e-005</R00>
+						<R01>-1.00001478</R01>
+						<R02>6.14599339e-005</R02>
+						<R10>0.000127474792</R10>
+						<R11>6.1364357e-005</R11>
+						<R12>1.00000024</R12>
+						<R20>-1.0000149</R20>
+						<R21>6.12421427e-005</R21>
+						<R22>0.000127611202</R22>
+					</CoordinateFrame>
+					<string name="Name">stairs-to-stairs Strong Joint</string>
+					<Ref name="Part0">RBX51</Ref>
+					<Ref name="Part1">RBX53</Ref>
+					<int name="Surface0">5</int>
+					<int name="Surface1">4</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX54">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>-2</X>
+						<Y>0.5</Y>
+						<Z>2</Z>
+						<R00>-1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>0</R11>
+						<R12>1</R12>
+						<R20>0</R20>
+						<R21>1</R21>
+						<R22>0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>2.50064659</X>
+						<Y>-0.499956846</Y>
+						<Z>-1.99983788</Z>
+						<R00>1.00001478</R00>
+						<R01>0.000163274264</R01>
+						<R02>-1.36260132e-005</R02>
+						<R10>1.36247254e-005</R10>
+						<R11>5.67054576e-006</R11>
+						<R12>1.00001431</R12>
+						<R20>0.000163093267</R20>
+						<R21>-1</R21>
+						<R22>5.57979183e-006</R22>
+					</CoordinateFrame>
+					<string name="Name">stairs-to-stairs Strong Joint</string>
+					<Ref name="Part0">RBX51</Ref>
+					<Ref name="Part1">RBX55</Ref>
+					<int name="Surface0">1</int>
+					<int name="Surface1">4</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX56">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>2</X>
+						<Y>-0.5</Y>
+						<Z>2</Z>
+						<R00>-0</R00>
+						<R01>0</R01>
+						<R02>1</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>-1</R20>
+						<R21>0</R21>
+						<R22>-0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>1.99999905</X>
+						<Y>-2.00003052</Y>
+						<Z>1.20024097</Z>
+						<R00>-0.000149768632</R00>
+						<R01>1.26736904e-005</R01>
+						<R02>-1.00001478</R02>
+						<R10>1</R10>
+						<R11>5.21675247e-005</R11>
+						<R12>-0.000149586645</R12>
+						<R20>5.22535047e-005</R20>
+						<R21>-1.00001431</R21>
+						<R22>-1.26818904e-005</R22>
+					</CoordinateFrame>
+					<string name="Name">stairs-to-telepad Strong Joint</string>
+					<Ref name="Part0">RBX51</Ref>
+					<Ref name="Part1">RBX9</Ref>
+					<int name="Surface0">0</int>
+					<int name="Surface1">0</int>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="WedgePart" referent="RBX53">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">194</int>
+				<CoordinateFrame name="CFrame">
+					<X>5</X>
+					<Y>1.70000005</Y>
+					<Z>7.00000048</Z>
+					<R00>-0.000124006183</R00>
+					<R01>-1</R01>
+					<R02>0.000126465879</R02>
+					<R10>-1</R10>
+					<R11>0.000124022205</R11>
+					<R12>0.000126676328</R12>
+					<R20>-0.000126692001</R20>
+					<R21>-0.000126450162</R21>
+					<R22>-1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">1056</token>
+				<string name="Name">stairs</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<Vector3 name="size">
+					<X>1</X>
+					<Y>4</Y>
+					<Z>4</Z>
+				</Vector3>
+			</Properties>
+			<Item class="ManualWeld" referent="RBX57">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>-0.5</X>
+						<Y>-2</Y>
+						<Z>2</Z>
+						<R00>0</R00>
+						<R01>0</R01>
+						<R02>-1</R02>
+						<R10>-0</R10>
+						<R11>1</R11>
+						<R12>-0</R12>
+						<R20>1</R20>
+						<R21>0</R21>
+						<R22>0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>0.499816418</X>
+						<Y>-1.49903679</Y>
+						<Z>1.50002289</Z>
+						<R00>-6.37539561e-005</R00>
+						<R01>-2.45381452e-005</R01>
+						<R02>-1.00001466</R02>
+						<R10>0.000321385538</R10>
+						<R11>1.00000024</R11>
+						<R12>-2.46458731e-005</R12>
+						<R20>1.00001478</R20>
+						<R21>-0.000321294006</R21>
+						<R22>-6.37456396e-005</R22>
+					</CoordinateFrame>
+					<string name="Name">stairs-to-stairs Strong Joint</string>
+					<Ref name="Part0">RBX53</Ref>
+					<Ref name="Part1">RBX58</Ref>
+					<int name="Surface0">3</int>
+					<int name="Surface1">2</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX59">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>-0.5</X>
+						<Y>-2</Y>
+						<Z>2</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>-2.00034332</X>
+						<Y>0.50001061</Y>
+						<Z>-2.00031948</Z>
+						<R00>0.000173285909</R00>
+						<R01>1</R01>
+						<R02>-0.000130136032</R02>
+						<R10>-1.00001431</R10>
+						<R11>0.000173213048</R11>
+						<R12>0.000126653729</R12>
+						<R20>0.000126675906</R20>
+						<R21>0.000130291912</R21>
+						<R22>1.00001478</R22>
+					</CoordinateFrame>
+					<string name="Name">stairs-to-stairs Strong Joint</string>
+					<Ref name="Part0">RBX53</Ref>
+					<Ref name="Part1">RBX3</Ref>
+					<int name="Surface0">0</int>
+					<int name="Surface1">5</int>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part" referent="RBX55">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">199</int>
+				<CoordinateFrame name="CFrame">
+					<X>8.99900055</X>
+					<Y>2.70000005</Y>
+					<Z>6.50000048</Z>
+					<R00>-9.0678579e-005</R00>
+					<R01>6.81419551e-005</R01>
+					<R02>-1</R02>
+					<R10>-7.9063524e-005</R10>
+					<R11>1</R11>
+					<R12>6.81491219e-005</R12>
+					<R20>1</R20>
+					<R21>7.90697013e-005</R21>
+					<R22>-9.06731875e-005</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">1056</token>
+				<string name="Name">stairs</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>3</X>
+					<Y>1</Y>
+					<Z>4</Z>
+				</Vector3>
+			</Properties>
+			<Item class="ManualWeld" referent="RBX60">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>-1.5</X>
+						<Y>-0.5</Y>
+						<Z>-2</Z>
+						<R00>-0</R00>
+						<R01>0</R01>
+						<R02>-1</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>1</R20>
+						<R21>0</R21>
+						<R22>-0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>1.99932671</X>
+						<Y>-1.99948502</Y>
+						<Z>0.200208187</Z>
+						<R00>1.3505768e-005</R00>
+						<R01>2.62996291e-005</R01>
+						<R02>-1.00001478</R02>
+						<R10>1</R10>
+						<R11>4.6499099e-005</R11>
+						<R12>1.36859189e-005</R12>
+						<R20>4.65872508e-005</R20>
+						<R21>-1.00001431</R21>
+						<R22>-2.62993672e-005</R22>
+					</CoordinateFrame>
+					<string name="Name">stairs-to-telepad Strong Joint</string>
+					<Ref name="Part0">RBX55</Ref>
+					<Ref name="Part1">RBX9</Ref>
+					<int name="Surface0">3</int>
+					<int name="Surface1">0</int>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="WedgePart" referent="RBX38">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">199</int>
+				<CoordinateFrame name="CFrame">
+					<X>12.4990005</X>
+					<Y>2.69900012</Y>
+					<Z>6.5010004</Z>
+					<R00>0.000126648927</R00>
+					<R01>1</R01>
+					<R02>0.000184365403</R02>
+					<R10>1</R10>
+					<R11>-0.000126648825</R11>
+					<R12>-5.38930919e-007</R12>
+					<R20>-5.15581291e-007</R20>
+					<R21>0.00018436549</R21>
+					<R22>-1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">1056</token>
+				<string name="Name">stairs</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<Vector3 name="size">
+					<X>1</X>
+					<Y>3</Y>
+					<Z>3</Z>
+				</Vector3>
+			</Properties>
+			<Item class="ManualWeld" referent="RBX61">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>0.5</X>
+						<Y>-1.5</Y>
+						<Z>1.5</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>0</R11>
+						<R12>-1</R12>
+						<R20>-0</R20>
+						<R21>1</R21>
+						<R22>0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>-1.49980545</X>
+						<Y>0.499788523</Y>
+						<Z>-1.9997406</Z>
+						<R00>-7.95915548e-005</R00>
+						<R01>-1.00001478</R01>
+						<R02>-9.36269498e-005</R02>
+						<R10>1.00001431</R10>
+						<R11>-7.95966189e-005</R11>
+						<R12>5.83608162e-005</R12>
+						<R20>-5.84558657e-005</R20>
+						<R21>-9.34422569e-005</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<string name="Name">stairs-to-stairs Strong Joint</string>
+					<Ref name="Part0">RBX38</Ref>
+					<Ref name="Part1">RBX55</Ref>
+					<int name="Surface0">4</int>
+					<int name="Surface1">5</int>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="WedgePart" referent="RBX58">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">199</int>
+				<CoordinateFrame name="CFrame">
+					<X>5.50000048</X>
+					<Y>2.70000005</Y>
+					<Z>6.50000048</Z>
+					<R00>-9.94767979e-005</R00>
+					<R01>-0.999999881</R01>
+					<R02>0.000447849568</R02>
+					<R10>-1</R10>
+					<R11>9.95049704e-005</R11>
+					<R12>6.28912967e-005</R12>
+					<R20>-6.29358547e-005</R20>
+					<R21>-0.000447843311</R21>
+					<R22>-0.999999881</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">1056</token>
+				<string name="Name">stairs</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<Vector3 name="size">
+					<X>1</X>
+					<Y>3</Y>
+					<Z>3</Z>
+				</Vector3>
+			</Properties>
+			<Item class="ManualWeld" referent="RBX62">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>-0.5</X>
+						<Y>-1.5</Y>
+						<Z>1.5</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>1.50001907</X>
+						<Y>0.499950171</Y>
+						<Z>2.00038433</Z>
+						<R00>-6.29330316e-005</R00>
+						<R01>-0.999999881</R01>
+						<R02>0.000447847706</R02>
+						<R10>-1.00001431</R10>
+						<R11>6.28494745e-005</R11>
+						<R12>1.09921375e-005</R12>
+						<R20>-1.10199344e-005</R20>
+						<R21>-0.000448029634</R21>
+						<R22>-1.00001466</R22>
+					</CoordinateFrame>
+					<string name="Name">stairs-to-stairs Strong Joint</string>
+					<Ref name="Part0">RBX58</Ref>
+					<Ref name="Part1">RBX11</Ref>
+					<int name="Surface0">0</int>
+					<int name="Surface1">2</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX63">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>0.5</X>
+						<Y>-1.5</Y>
+						<Z>1.5</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>0</R11>
+						<R12>-1</R12>
+						<R20>-0</R20>
+						<R21>1</R21>
+						<R22>0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>-1.49927616</X>
+						<Y>-0.499941349</Y>
+						<Z>1.99835587</Z>
+						<R00>1.61371063e-005</R00>
+						<R01>-1.00001466</R01>
+						<R02>0.000357279176</R02>
+						<R10>-1.00001431</R10>
+						<R11>-1.61478893e-005</R11>
+						<R12>-3.11957265e-005</R12>
+						<R20>3.12895136e-005</R20>
+						<R21>-0.000357094716</R21>
+						<R22>-0.99999994</R22>
+					</CoordinateFrame>
+					<string name="Name">stairs-to-stairs Strong Joint</string>
+					<Ref name="Part0">RBX58</Ref>
+					<Ref name="Part1">RBX55</Ref>
+					<int name="Surface0">4</int>
+					<int name="Surface1">2</int>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part" referent="RBX45">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">102</int>
+				<CoordinateFrame name="CFrame">
+					<X>9</X>
+					<Y>8.5</Y>
+					<Z>3.00000024</Z>
+					<R00>1.00000048</R00>
+					<R01>4.91015999e-005</R01>
+					<R02>-9.40139362e-005</R02>
+					<R10>-4.90614002e-005</R10>
+					<R11>1.00000739</R11>
+					<R12>-5.00824863e-005</R12>
+					<R20>9.4092873e-005</R20>
+					<R21>5.00868955e-005</R21>
+					<R22>1.00000763</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">false</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">1072</token>
+				<string name="Name">teleBeam2</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0.400000006</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>4.5999999</X>
+					<Y>9.80000019</Y>
+					<Z>4.5999999</Z>
+				</Vector3>
+			</Properties>
+			<Item class="CylinderMesh" referent="RBX64">
+				<Properties>
+					<float name="Bevel">0</float>
+					<float name="Bevel Roundness">0</float>
+					<float name="Bulge">0</float>
+					<token name="LODX">2</token>
+					<token name="LODY">2</token>
+					<string name="Name">Mesh</string>
+					<Vector3 name="Offset">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<Vector3 name="Scale">
+						<X>1</X>
+						<Y>1</Y>
+						<Z>1</Z>
+					</Vector3>
+					<Vector3 name="VertexColor">
+						<X>1</X>
+						<Y>1</Y>
+						<Z>1</Z>
+					</Vector3>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part" referent="RBX43">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">1027</int>
+				<CoordinateFrame name="CFrame">
+					<X>9</X>
+					<Y>8.5010004</Y>
+					<Z>3.00000024</Z>
+					<R00>-9.37099758e-005</R00>
+					<R01>4.92349645e-005</R01>
+					<R02>-1</R02>
+					<R10>-5.00827882e-005</R10>
+					<R11>1</R11>
+					<R12>4.92396575e-005</R12>
+					<R20>1</R20>
+					<R21>5.00873975e-005</R21>
+					<R22>-9.37075092e-005</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">false</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">1072</token>
+				<string name="Name">teleBeam3</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0.5</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>4</X>
+					<Y>9.79999828</Y>
+					<Z>4</Z>
+				</Vector3>
+			</Properties>
+			<Item class="CylinderMesh" referent="RBX65">
+				<Properties>
+					<float name="Bevel">0</float>
+					<float name="Bevel Roundness">0</float>
+					<float name="Bulge">0</float>
+					<token name="LODX">2</token>
+					<token name="LODY">2</token>
+					<string name="Name">Mesh</string>
+					<Vector3 name="Offset">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<Vector3 name="Scale">
+						<X>1</X>
+						<Y>1</Y>
+						<Z>1</Z>
+					</Vector3>
+					<Vector3 name="VertexColor">
+						<X>1</X>
+						<Y>1</Y>
+						<Z>1</Z>
+					</Vector3>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part" referent="RBX47">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">1013</int>
+				<CoordinateFrame name="CFrame">
+					<X>9</X>
+					<Y>8.5</Y>
+					<Z>3.00000024</Z>
+					<R00>1</R00>
+					<R01>-2.38430715e-007</R01>
+					<R02>-0.000187516562</R02>
+					<R10>2.38469283e-007</R10>
+					<R11>1</R11>
+					<R12>2.05635075e-007</R12>
+					<R20>0.000187516562</R20>
+					<R21>-2.05679783e-007</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">false</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">1072</token>
+				<string name="Name">teleBeam1</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0.600000024</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>3.20000005</X>
+					<Y>9.80000019</Y>
+					<Z>3.20000005</Z>
+				</Vector3>
+			</Properties>
+			<Item class="CylinderMesh" referent="RBX66">
+				<Properties>
+					<float name="Bevel">0</float>
+					<float name="Bevel Roundness">0</float>
+					<float name="Bulge">0</float>
+					<token name="LODX">2</token>
+					<token name="LODY">2</token>
+					<string name="Name">Mesh</string>
+					<Vector3 name="Offset">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<Vector3 name="Scale">
+						<X>1</X>
+						<Y>1</Y>
+						<Z>1</Z>
+					</Vector3>
+					<Vector3 name="VertexColor">
+						<X>1</X>
+						<Y>1</Y>
+						<Z>1</Z>
+					</Vector3>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="WedgePart" referent="RBX67">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">107</int>
+				<CoordinateFrame name="CFrame">
+					<X>11.500001</X>
+					<Y>13.901001</Y>
+					<Z>0.501000047</Z>
+					<R00>2.61730493e-005</R00>
+					<R01>1.00000048</R01>
+					<R02>-0.000240703826</R02>
+					<R10>-1.00000739</R10>
+					<R11>2.62189351e-005</R11>
+					<R12>1.89885759e-006</R12>
+					<R20>1.9053914e-006</R20>
+					<R21>0.000240786219</R21>
+					<R22>1.00000763</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">1056</token>
+				<string name="Name">top</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<Vector3 name="size">
+					<X>1</X>
+					<Y>0.999999583</Y>
+					<Z>0.999999583</Z>
+				</Vector3>
+			</Properties>
+			<Item class="ManualWeld" referent="RBX68">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>0.5</X>
+						<Y>-0.499999791</Y>
+						<Z>-0.499999791</Z>
+						<R00>0</R00>
+						<R01>0</R01>
+						<R02>1</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>-1</R20>
+						<R21>0</R21>
+						<R22>0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>1.99999809</X>
+						<Y>4.90039158</Y>
+						<Z>-2.99949551</Z>
+						<R00>0.000146692371</R00>
+						<R01>1</R01>
+						<R02>7.52795022e-005</R02>
+						<R10>-5.19737623e-005</R10>
+						<R11>7.52871274e-005</R11>
+						<R12>-1</R12>
+						<R20>-1</R20>
+						<R21>0.000146688457</R21>
+						<R22>5.19848072e-005</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-teleBeam Strong Joint</string>
+					<Ref name="Part0">RBX67</Ref>
+					<Ref name="Part1">RBX45</Ref>
+					<int name="Surface0">2</int>
+					<int name="Surface1">1</int>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="WedgePart" referent="RBX69">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">107</int>
+				<CoordinateFrame name="CFrame">
+					<X>6.50000048</X>
+					<Y>13.901001</Y>
+					<Z>0.5</Z>
+					<R00>-2.00835257e-005</R00>
+					<R01>9.40233731e-005</R01>
+					<R02>1.00000048</R02>
+					<R10>-1.00000739</R10>
+					<R11>0.000173426321</R11>
+					<R12>-2.0054722e-005</R12>
+					<R20>-0.000173428023</R20>
+					<R21>-1.00000763</R21>
+					<R22>9.41012913e-005</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">1056</token>
+				<string name="Name">top</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<Vector3 name="size">
+					<X>1</X>
+					<Y>0.999999583</Y>
+					<Z>0.999999583</Z>
+				</Vector3>
+			</Properties>
+			<Item class="ManualWeld" referent="RBX70">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>0.5</X>
+						<Y>-0.499999791</Y>
+						<Z>-0.499999791</Z>
+						<R00>0</R00>
+						<R01>0</R01>
+						<R02>1</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>-1</R20>
+						<R21>0</R21>
+						<R22>0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>-3.00007343</X>
+						<Y>4.90001011</Y>
+						<Z>-2.00000763</Z>
+						<R00>-1</R00>
+						<R01>3.38397399e-009</R01>
+						<R02>2.90064636e-005</R02>
+						<R10>-2.90064636e-005</R10>
+						<R11>0.000123342921</R11>
+						<R12>-1</R12>
+						<R20>-6.96172719e-009</R20>
+						<R21>-1</R21>
+						<R22>-0.000123342921</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-teleBeam Strong Joint</string>
+					<Ref name="Part0">RBX69</Ref>
+					<Ref name="Part1">RBX45</Ref>
+					<int name="Surface0">2</int>
+					<int name="Surface1">1</int>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part" referent="RBX71">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">107</int>
+				<CoordinateFrame name="CFrame">
+					<X>9</X>
+					<Y>13.9000006</Y>
+					<Z>0.5</Z>
+					<R00>-9.35885255e-005</R00>
+					<R01>5.1328494e-005</R01>
+					<R02>-1.00000048</R02>
+					<R10>-5.03477204e-005</R10>
+					<R11>1.00000739</R11>
+					<R12>5.12883125e-005</R12>
+					<R20>1.00000763</R20>
+					<R21>5.03523152e-005</R21>
+					<R22>-9.36673314e-005</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">1056</token>
+				<string name="Name">top</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>0.999999523</X>
+					<Y>0.999999821</Y>
+					<Z>4</Z>
+				</Vector3>
+			</Properties>
+			<Item class="ManualWeld" referent="RBX72">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>-0.499999762</X>
+						<Y>-0.499999911</Y>
+						<Z>2</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>0.500156403</X>
+						<Y>0.500024796</Y>
+						<Z>0.499992371</Z>
+						<R00>-0.000123080303</R00>
+						<R01>-1.00001478</R01>
+						<R02>-3.1234762e-005</R02>
+						<R10>-1.00001526</R10>
+						<R11>0.000123080725</R11>
+						<R12>-4.28556916e-007</R12>
+						<R20>5.96535187e-007</R20>
+						<R21>3.13242344e-005</R21>
+						<R22>-1.00000095</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-top Strong Joint</string>
+					<Ref name="Part0">RBX71</Ref>
+					<Ref name="Part1">RBX69</Ref>
+					<int name="Surface0">2</int>
+					<int name="Surface1">0</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX73">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>0.499999762</X>
+						<Y>-0.499999911</Y>
+						<Z>-2</Z>
+						<R00>-1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>-1</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>0.5004673</X>
+						<Y>-0.499925613</Y>
+						<Z>0.499432564</Z>
+						<R00>-5.22515948e-005</R00>
+						<R01>-1.00002956</R01>
+						<R02>7.75086883e-005</R02>
+						<R10>-0.00014711413</R10>
+						<R11>7.76966772e-005</R11>
+						<R12>1.00000191</R12>
+						<R20>-1.00003052</R20>
+						<R21>5.22392293e-005</R21>
+						<R22>-0.000146785751</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-top Strong Joint</string>
+					<Ref name="Part0">RBX71</Ref>
+					<Ref name="Part1">RBX67</Ref>
+					<int name="Surface0">5</int>
+					<int name="Surface1">4</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX74">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>0.499999762</X>
+						<Y>-0.499999911</Y>
+						<Z>2</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>0</R11>
+						<R12>-1</R12>
+						<R20>-0</R20>
+						<R21>1</R21>
+						<R22>0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>-2.00007439</X>
+						<Y>4.89997101</Y>
+						<Z>-2.00004768</Z>
+						<R00>4.25425497e-007</R00>
+						<R01>-1</R01>
+						<R02>-2.22691915e-006</R02>
+						<R10>-2.65210502e-007</R10>
+						<R11>2.22691915e-006</R11>
+						<R12>-1</R12>
+						<R20>1</R20>
+						<R21>4.25426094e-007</R21>
+						<R22>-2.65209565e-007</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-teleBeam Strong Joint</string>
+					<Ref name="Part0">RBX71</Ref>
+					<Ref name="Part1">RBX45</Ref>
+					<int name="Surface0">4</int>
+					<int name="Surface1">1</int>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part" referent="RBX75">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">1019</int>
+				<CoordinateFrame name="CFrame">
+					<X>9</X>
+					<Y>14.901001</Y>
+					<Z>0</Z>
+					<R00>-0.000240507958</R00>
+					<R01>-2.63757065e-005</R01>
+					<R02>-1.00000048</R02>
+					<R10>-8.24512681e-005</R10>
+					<R11>1.00000739</R11>
+					<R12>-2.64013142e-005</R12>
+					<R20>1.00000763</R20>
+					<R21>8.24447197e-005</R21>
+					<R22>-0.000240592592</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">1056</token>
+				<string name="Name">top</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>1.99999952</X>
+					<Y>0.999999821</Y>
+					<Z>4</Z>
+				</Vector3>
+			</Properties>
+			<Item class="ManualWeld" referent="RBX76">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>0.999999762</X>
+						<Y>-0.499999911</Y>
+						<Z>2</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>0</R11>
+						<R12>-1</R12>
+						<R20>-0</R20>
+						<R21>1</R21>
+						<R22>0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>0.500013351</X>
+						<Y>0.500021935</Y>
+						<Z>2.00000572</Z>
+						<R00>1.00003052</R00>
+						<R01>-0.000147090919</R01>
+						<R02>-3.20999534e-005</R02>
+						<R10>-3.21122498e-005</R10>
+						<R11>-7.77888781e-005</R11>
+						<R12>-1.00002956</R12>
+						<R20>0.000146755978</R20>
+						<R21>1.00000191</R21>
+						<R22>-7.76132874e-005</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-top Strong Joint</string>
+					<Ref name="Part0">RBX75</Ref>
+					<Ref name="Part1">RBX71</Ref>
+					<int name="Surface0">4</int>
+					<int name="Surface1">1</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX77">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>-0.999999762</X>
+						<Y>-0.499999911</Y>
+						<Z>2</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>0.500162125</X>
+						<Y>1.00006151</Y>
+						<Z>1.00028801</Z>
+						<R00>-9.09799855e-005</R00>
+						<R01>-1.00001466</R01>
+						<R02>4.64995537e-006</R02>
+						<R10>-1.00001514</R10>
+						<R11>9.09810551e-005</R11>
+						<R12>0.000146113656</R12>
+						<R20>-0.000145956612</R20>
+						<R21>-4.54546534e-006</R21>
+						<R22>-1.00000083</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-top Strong Joint</string>
+					<Ref name="Part0">RBX75</Ref>
+					<Ref name="Part1">RBX78</Ref>
+					<int name="Surface0">2</int>
+					<int name="Surface1">0</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX79">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>0.999999762</X>
+						<Y>-0.499999911</Y>
+						<Z>-2</Z>
+						<R00>-1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>-1</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>0.499999046</X>
+						<Y>-1</Y>
+						<Z>1</Z>
+						<R00>-0.00011034299</R00>
+						<R01>-1.00001478</R01>
+						<R02>-0.00010862721</R02>
+						<R10>7.71238847e-005</R10>
+						<R11>-0.000108546024</R11>
+						<R12>1.00000095</R12>
+						<R20>-1.00001526</R20>
+						<R21>0.00011033412</R21>
+						<R22>7.73030915e-005</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-top Strong Joint</string>
+					<Ref name="Part0">RBX75</Ref>
+					<Ref name="Part1">RBX80</Ref>
+					<int name="Surface0">5</int>
+					<int name="Surface1">4</int>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="WedgePart" referent="RBX80">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">1019</int>
+				<CoordinateFrame name="CFrame">
+					<X>12.000001</X>
+					<Y>14.901001</Y>
+					<Z>0.00100000005</Z>
+					<R00>-8.23631854e-005</R00>
+					<R01>1.00000048</R01>
+					<R02>-0.000163705015</R02>
+					<R10>-1.00000739</R10>
+					<R11>-8.23139417e-005</R11>
+					<R12>2.78855987e-005</R12>
+					<R20>2.78723492e-005</R20>
+					<R21>0.000163789213</R21>
+					<R22>1.00000763</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">1056</token>
+				<string name="Name">top</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<Vector3 name="size">
+					<X>1</X>
+					<Y>1.99999976</Y>
+					<Z>1.99999976</Z>
+				</Vector3>
+			</Properties>
+			<Item class="ManualWeld" referent="RBX81">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>0.5</X>
+						<Y>-0.999999881</Y>
+						<Z>-0.999999881</Z>
+						<R00>0</R00>
+						<R01>0</R01>
+						<R02>1</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>-1</R20>
+						<R21>0</R21>
+						<R22>0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>-0.499834061</X>
+						<Y>-0.500003815</Y>
+						<Z>-1.50000477</Z>
+						<R00>2.59842418e-005</R00>
+						<R01>0.000108447399</R01>
+						<R02>1.00002956</R02>
+						<R10>-7.7327466e-005</R10>
+						<R11>1.00000191</R11>
+						<R12>-0.000108624808</R12>
+						<R20>-1.00003052</R20>
+						<R21>-7.69902326e-005</R21>
+						<R22>2.59936642e-005</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-top Strong Joint</string>
+					<Ref name="Part0">RBX80</Ref>
+					<Ref name="Part1">RBX67</Ref>
+					<int name="Surface0">2</int>
+					<int name="Surface1">3</int>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="WedgePart" referent="RBX78">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">1019</int>
+				<CoordinateFrame name="CFrame">
+					<X>6.00000048</X>
+					<Y>14.901001</Y>
+					<Z>0</Z>
+					<R00>2.16566223e-005</R00>
+					<R01>9.42320039e-005</R01>
+					<R02>1.00000048</R02>
+					<R10>-1.00000739</R10>
+					<R11>0.000173426699</R11>
+					<R12>2.16856715e-005</R12>
+					<R20>-0.000173424472</R20>
+					<R21>-1.00000763</R21>
+					<R22>9.43171544e-005</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">1056</token>
+				<string name="Name">top</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<Vector3 name="size">
+					<X>1</X>
+					<Y>1.99999976</Y>
+					<Z>1.99999976</Z>
+				</Vector3>
+			</Properties>
+			<Item class="ManualWeld" referent="RBX82">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>0.5</X>
+						<Y>-0.999999881</Y>
+						<Z>-0.999999881</Z>
+						<R00>0</R00>
+						<R01>0</R01>
+						<R02>1</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>-1</R20>
+						<R21>0</R21>
+						<R22>0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>-0.499883652</X>
+						<Y>-0.499934196</Y>
+						<Z>-1.49997616</Z>
+						<R00>4.19225908e-005</R00>
+						<R01>-6.69388101e-010</R01>
+						<R02>1.00002956</R02>
+						<R10>5.36900984e-007</R10>
+						<R11>1.00003052</R11>
+						<R12>-4.36557457e-011</R12>
+						<R20>-1.00000191</R20>
+						<R21>2.0861826e-007</R21>
+						<R22>4.1741514e-005</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-top Strong Joint</string>
+					<Ref name="Part0">RBX78</Ref>
+					<Ref name="Part1">RBX69</Ref>
+					<int name="Surface0">2</int>
+					<int name="Surface1">3</int>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part" referent="RBX83">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">107</int>
+				<CoordinateFrame name="CFrame">
+					<X>11.500001</X>
+					<Y>13.9000006</Y>
+					<Z>3.00000024</Z>
+					<R00>-1.00000048</R00>
+					<R01>4.5955996e-005</R01>
+					<R02>3.0995714e-005</R02>
+					<R10>4.59126204e-005</R10>
+					<R11>1.00000739</R11>
+					<R12>5.01360082e-005</R12>
+					<R20>-3.10743526e-005</R20>
+					<R21>5.01372269e-005</R21>
+					<R22>-1.00000763</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">1056</token>
+				<string name="Name">top</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>0.999999523</X>
+					<Y>0.999999821</Y>
+					<Z>4</Z>
+				</Vector3>
+			</Properties>
+			<Item class="ManualWeld" referent="RBX84">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>0.499999762</X>
+						<Y>-0.499999911</Y>
+						<Z>-2</Z>
+						<R00>-1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>-1</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>0.500061989</X>
+						<Y>-0.499769211</Y>
+						<Z>0.499790192</Z>
+						<R00>-5.28350065e-005</R00>
+						<R01>-1.00001478</R01>
+						<R02>7.80509436e-005</R02>
+						<R10>-0.000146556573</R10>
+						<R11>7.80581977e-005</R11>
+						<R12>1.00001526</R12>
+						<R20>-1.00000095</R20>
+						<R21>5.27350749e-005</R21>
+						<R22>-0.000146725128</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-top Strong Joint</string>
+					<Ref name="Part0">RBX83</Ref>
+					<Ref name="Part1">RBX85</Ref>
+					<int name="Surface0">5</int>
+					<int name="Surface1">4</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX86">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>-0.499999762</X>
+						<Y>-0.499999911</Y>
+						<Z>2</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>0.500512123</X>
+						<Y>0.500078201</Y>
+						<Z>0.499140739</Z>
+						<R00>-7.23120611e-005</R00>
+						<R01>-1.00001478</R01>
+						<R02>-5.20407048e-005</R02>
+						<R10>-1.00000095</R10>
+						<R11>7.24131896e-005</R11>
+						<R12>-0.000209701742</R12>
+						<R20>0.000209540187</R20>
+						<R21>5.20250578e-005</R21>
+						<R22>-1.00001526</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-top Strong Joint</string>
+					<Ref name="Part0">RBX83</Ref>
+					<Ref name="Part1">RBX67</Ref>
+					<int name="Surface0">2</int>
+					<int name="Surface1">0</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX87">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>0.499999762</X>
+						<Y>-0.499999911</Y>
+						<Z>2</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>0</R11>
+						<R12>-1</R12>
+						<R20>-0</R20>
+						<R21>1</R21>
+						<R22>0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>1.99993134</X>
+						<Y>4.8999691</Y>
+						<Z>-2.00007057</Z>
+						<R00>-1</R00>
+						<R01>-6.30181967e-005</R01>
+						<R02>3.14559611e-006</R02>
+						<R10>-3.14559929e-006</R10>
+						<R11>5.04300175e-008</R11>
+						<R12>-1</R12>
+						<R20>6.30181967e-005</R20>
+						<R21>-1</R21>
+						<R22>-5.06282483e-008</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-teleBeam Strong Joint</string>
+					<Ref name="Part0">RBX83</Ref>
+					<Ref name="Part1">RBX45</Ref>
+					<int name="Surface0">4</int>
+					<int name="Surface1">1</int>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part" referent="RBX88">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">107</int>
+				<CoordinateFrame name="CFrame">
+					<X>6.50000048</X>
+					<Y>13.9000006</Y>
+					<Z>3.00000024</Z>
+					<R00>1.00000048</R00>
+					<R01>5.17208136e-005</R01>
+					<R02>-9.37369623e-005</R02>
+					<R10>-5.16801665e-005</R10>
+					<R11>1.00000739</R11>
+					<R12>-4.52418171e-005</R12>
+					<R20>9.38160229e-005</R20>
+					<R21>4.52464592e-005</R21>
+					<R22>1.00000763</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">1056</token>
+				<string name="Name">top</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>0.999999523</X>
+					<Y>0.999999821</Y>
+					<Z>4</Z>
+				</Vector3>
+			</Properties>
+			<Item class="ManualWeld" referent="RBX89">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>-0.499999762</X>
+						<Y>-0.499999911</Y>
+						<Z>2</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>0.500380516</X>
+						<Y>0.500209808</Y>
+						<Z>0.50044632</Z>
+						<R00>-4.80362869e-005</R00>
+						<R01>-1.00001478</R01>
+						<R02>1.53576148e-005</R02>
+						<R10>-1.00000095</R10>
+						<R11>4.79480077e-005</R11>
+						<R12>6.6635148e-006</R12>
+						<R20>-6.82828795e-006</R20>
+						<R21>-1.5356838e-005</R21>
+						<R22>-1.00001526</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-top Strong Joint</string>
+					<Ref name="Part0">RBX88</Ref>
+					<Ref name="Part1">RBX90</Ref>
+					<int name="Surface0">2</int>
+					<int name="Surface1">0</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX91">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>0.499999762</X>
+						<Y>-0.499999911</Y>
+						<Z>-2</Z>
+						<R00>-1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>-1</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>0.500066757</X>
+						<Y>-0.500021935</Y>
+						<Z>0.5</Z>
+						<R00>-3.1626194e-005</R00>
+						<R01>-1.00002956</R01>
+						<R02>0.000128187341</R02>
+						<R10>-2.79789475e-007</R10>
+						<R11>0.000128188156</R11>
+						<R12>1.00003052</R12>
+						<R20>-1.00000191</R20>
+						<R21>3.1805168e-005</R21>
+						<R22>-6.12117674e-007</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-top Strong Joint</string>
+					<Ref name="Part0">RBX88</Ref>
+					<Ref name="Part1">RBX69</Ref>
+					<int name="Surface0">5</int>
+					<int name="Surface1">4</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX92">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>0.499999762</X>
+						<Y>-0.499999911</Y>
+						<Z>2</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>0</R11>
+						<R12>-1</R12>
+						<R20>-0</R20>
+						<R21>1</R21>
+						<R22>0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>-2.00007248</X>
+						<Y>4.89997768</Y>
+						<Z>2.00002956</Z>
+						<R00>1</R00>
+						<R01>2.76732692e-007</R01>
+						<R02>-2.61875903e-006</R02>
+						<R10>-2.61876039e-006</R10>
+						<R11>4.84064685e-006</R11>
+						<R12>-1</R12>
+						<R20>-2.76720016e-007</R20>
+						<R21>1</R21>
+						<R22>4.84064776e-006</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-teleBeam Strong Joint</string>
+					<Ref name="Part0">RBX88</Ref>
+					<Ref name="Part1">RBX45</Ref>
+					<int name="Surface0">4</int>
+					<int name="Surface1">1</int>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part" referent="RBX93">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">1019</int>
+				<CoordinateFrame name="CFrame">
+					<X>9</X>
+					<Y>14.4000006</Y>
+					<Z>3.00000024</Z>
+					<R00>-9.39344827e-005</R00>
+					<R01>4.94970191e-005</R01>
+					<R02>-1</R02>
+					<R10>-5.00821443e-005</R10>
+					<R11>1</R11>
+					<R12>4.9501723e-005</R12>
+					<R20>1</R20>
+					<R21>5.008679e-005</R21>
+					<R22>-9.39320016e-005</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">1056</token>
+				<string name="Name">top</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>4</X>
+					<Y>2</Y>
+					<Z>4</Z>
+				</Vector3>
+			</Properties>
+			<Item class="ManualWeld" referent="RBX94">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>-2</X>
+						<Y>-1</Y>
+						<Z>-2</Z>
+						<R00>-0</R00>
+						<R01>0</R01>
+						<R02>-1</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>1</R20>
+						<R21>0</R21>
+						<R22>-0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>0.999445915</X>
+						<Y>-1.5003109</Y>
+						<Z>-1.99992561</Z>
+						<R00>0.000146573264</R00>
+						<R01>-3.23759996e-005</R01>
+						<R02>-1.00000763</R02>
+						<R10>7.58710958e-005</R10>
+						<R11>1.00000739</R11>
+						<R12>-3.23646491e-005</R12>
+						<R20>1.00000048</R20>
+						<R21>-7.59114337e-005</R21>
+						<R22>0.000146658829</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-top Strong Joint</string>
+					<Ref name="Part0">RBX93</Ref>
+					<Ref name="Part1">RBX75</Ref>
+					<int name="Surface0">3</int>
+					<int name="Surface1">0</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX95">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>-2</X>
+						<Y>-1</Y>
+						<Z>-2</Z>
+						<R00>-0</R00>
+						<R01>0</R01>
+						<R02>-1</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>1</R20>
+						<R21>0</R21>
+						<R22>-0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>0.500000954</X>
+						<Y>-0.499993324</Y>
+						<Z>-2.00000191</Z>
+						<R00>-3.46690911e-007</R00>
+						<R01>-2.65177761e-007</R01>
+						<R02>-1.00000763</R02>
+						<R10>-1.83116094e-006</R10>
+						<R11>1.00000739</R11>
+						<R12>-2.64960107e-007</R12>
+						<R20>1.00000048</R20>
+						<R21>1.78658945e-006</R21>
+						<R22>-2.6462908e-007</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-top Strong Joint</string>
+					<Ref name="Part0">RBX93</Ref>
+					<Ref name="Part1">RBX71</Ref>
+					<int name="Surface0">3</int>
+					<int name="Surface1">0</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX96">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>-2</X>
+						<Y>-1</Y>
+						<Z>2</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>1.00000095</X>
+						<Y>-1.49998856</Y>
+						<Z>-2.00003433</Z>
+						<R00>-2.64682683e-007</R00>
+						<R01>-2.13558815e-006</R01>
+						<R02>-1.00000048</R02>
+						<R10>-4.75129445e-006</R10>
+						<R11>1.00000739</R11>
+						<R12>-2.18017112e-006</R12>
+						<R20>1.00000763</R20>
+						<R21>4.75108209e-006</R21>
+						<R22>-3.46746162e-007</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-top Strong Joint</string>
+					<Ref name="Part0">RBX93</Ref>
+					<Ref name="Part1">RBX97</Ref>
+					<int name="Surface0">2</int>
+					<int name="Surface1">0</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX98">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>-2</X>
+						<Y>-1</Y>
+						<Z>2</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>0.499998093</X>
+						<Y>-0.499988556</Y>
+						<Z>-2.0000391</Z>
+						<R00>-2.80043253e-007</R00>
+						<R01>-2.26752491e-006</R01>
+						<R02>-1.00000048</R02>
+						<R10>-4.84049497e-006</R10>
+						<R11>1.00000739</R11>
+						<R12>-2.31206354e-006</R12>
+						<R20>1.00000763</R20>
+						<R21>4.84027078e-006</R21>
+						<R22>-3.62122307e-007</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-top Strong Joint</string>
+					<Ref name="Part0">RBX93</Ref>
+					<Ref name="Part1">RBX88</Ref>
+					<int name="Surface0">2</int>
+					<int name="Surface1">0</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX99">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>2</X>
+						<Y>-1</Y>
+						<Z>2</Z>
+						<R00>-0</R00>
+						<R01>0</R01>
+						<R02>1</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>-1</R20>
+						<R21>0</R21>
+						<R22>-0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>1.00041389</X>
+						<Y>-1.50016212</Y>
+						<Z>-1.99996376</Z>
+						<R00>-9.37577715e-005</R00>
+						<R01>-3.94977505e-005</R01>
+						<R02>-1.00000739</R02>
+						<R10>3.86573629e-005</R10>
+						<R11>1.00000715</R11>
+						<R12>-3.9501585e-005</R12>
+						<R20>1.00000024</R20>
+						<R21>-3.86167412e-005</R21>
+						<R22>-9.36754659e-005</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-top Strong Joint</string>
+					<Ref name="Part0">RBX93</Ref>
+					<Ref name="Part1">RBX100</Ref>
+					<int name="Surface0">0</int>
+					<int name="Surface1">0</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX101">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>2</X>
+						<Y>-1</Y>
+						<Z>2</Z>
+						<R00>-0</R00>
+						<R01>0</R01>
+						<R02>1</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>-1</R20>
+						<R21>0</R21>
+						<R22>-0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>-0.498581886</X>
+						<Y>-0.500198364</Y>
+						<Z>2.00000381</Z>
+						<R00>-0.00035419999</R00>
+						<R01>-3.40568658e-005</R01>
+						<R02>1.00000739</R02>
+						<R10>4.96652428e-005</R10>
+						<R11>1.00000703</R11>
+						<R12>3.40742372e-005</R12>
+						<R20>-1.00000024</R20>
+						<R21>4.96330467e-005</R21>
+						<R22>-0.000354287651</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-top Strong Joint</string>
+					<Ref name="Part0">RBX93</Ref>
+					<Ref name="Part1">RBX102</Ref>
+					<int name="Surface0">0</int>
+					<int name="Surface1">3</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX103">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>2</X>
+						<Y>-1</Y>
+						<Z>-2</Z>
+						<R00>-1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>-1</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>0.999649048</X>
+						<Y>-1.50031853</Y>
+						<Z>-1.99995232</Z>
+						<R00>7.66155063e-005</R00>
+						<R01>4.31673252e-005</R01>
+						<R02>-1.00000048</R02>
+						<R10>7.79587135e-005</R10>
+						<R11>1.00000739</R11>
+						<R12>4.32175548e-005</R12>
+						<R20>1.00000763</R20>
+						<R21>-7.79617621e-005</R21>
+						<R22>7.65329023e-005</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-top Strong Joint</string>
+					<Ref name="Part0">RBX93</Ref>
+					<Ref name="Part1">RBX104</Ref>
+					<int name="Surface0">5</int>
+					<int name="Surface1">0</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX105">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>2</X>
+						<Y>-1</Y>
+						<Z>-2</Z>
+						<R00>-1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>-1</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>0.500253677</X>
+						<Y>-0.5</Y>
+						<Z>-2.00003052</Z>
+						<R00>-6.30210998e-005</R00>
+						<R01>-3.49679749e-006</R01>
+						<R02>-1.00000048</R02>
+						<R10>-5.08103213e-008</R10>
+						<R11>1.00000739</R11>
+						<R12>-3.45220337e-006</R12>
+						<R20>1.00000763</R20>
+						<R21>5.08124849e-008</R21>
+						<R22>-6.31027142e-005</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-top Strong Joint</string>
+					<Ref name="Part0">RBX93</Ref>
+					<Ref name="Part1">RBX83</Ref>
+					<int name="Surface0">5</int>
+					<int name="Surface1">0</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX106">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>2</X>
+						<Y>-1</Y>
+						<Z>2</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>0</R11>
+						<R12>-1</R12>
+						<R20>-0</R20>
+						<R21>1</R21>
+						<R22>0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>1.99997902</X>
+						<Y>4.89964199</Y>
+						<Z>1.99998474</Z>
+						<R00>1.00001526</R00>
+						<R01>-2.24512533e-007</R01>
+						<R02>6.34710728e-010</R02>
+						<R10>1.89041699e-010</R10>
+						<R11>2.62063963e-007</R11>
+						<R12>-1.00001478</R12>
+						<R20>6.03842025e-008</R20>
+						<R21>1.00000095</R21>
+						<R22>3.51200157e-007</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-teleBeam Strong Joint</string>
+					<Ref name="Part0">RBX93</Ref>
+					<Ref name="Part1">RBX43</Ref>
+					<int name="Surface0">4</int>
+					<int name="Surface1">1</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX107">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>2</X>
+						<Y>-1</Y>
+						<Z>2</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>0</R11>
+						<R12>-1</R12>
+						<R20>-0</R20>
+						<R21>1</R21>
+						<R22>0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>-2.00007439</X>
+						<Y>4.89996243</Y>
+						<Z>1.99999046</Z>
+						<R00>7.87404133e-008</R00>
+						<R01>-1.00000048</R01>
+						<R02>-3.95787367e-007</R02>
+						<R10>-3.47024631e-011</R10>
+						<R11>3.5122099e-007</R11>
+						<R12>-1.00000739</R12>
+						<R20>1.00000763</R20>
+						<R21>-3.32511263e-009</R21>
+						<R22>1.87322158e-010</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-teleBeam Strong Joint</string>
+					<Ref name="Part0">RBX93</Ref>
+					<Ref name="Part1">RBX45</Ref>
+					<int name="Surface0">4</int>
+					<int name="Surface1">1</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX108">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>2</X>
+						<Y>-1</Y>
+						<Z>2</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>0</R11>
+						<R12>-1</R12>
+						<R20>-0</R20>
+						<R21>1</R21>
+						<R22>0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>-2.00001335</X>
+						<Y>4.90003872</Y>
+						<Z>2.00000572</Z>
+						<R00>9.34166892e-005</R00>
+						<R01>-1.00000095</R01>
+						<R02>-4.96551074e-005</R02>
+						<R10>-5.02880794e-005</R10>
+						<R11>4.95606e-005</R11>
+						<R12>-1.00001478</R12>
+						<R20>1.00001526</R20>
+						<R21>9.32537077e-005</R21>
+						<R22>-5.02829716e-005</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-teleBeam Strong Joint</string>
+					<Ref name="Part0">RBX93</Ref>
+					<Ref name="Part1">RBX47</Ref>
+					<int name="Surface0">4</int>
+					<int name="Surface1">1</int>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part" referent="RBX104">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">1019</int>
+				<CoordinateFrame name="CFrame">
+					<X>12.000001</X>
+					<Y>14.9000006</Y>
+					<Z>3.00000024</Z>
+					<R00>-1.00000048</R00>
+					<R01>9.26337525e-005</R01>
+					<R02>0.000170626095</R02>
+					<R10>9.25843851e-005</R10>
+					<R11>1.00000739</R11>
+					<R12>-2.78835287e-005</R12>
+					<R20>-0.000170710613</R20>
+					<R21>-2.78679618e-005</R21>
+					<R22>-1.00000763</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">1056</token>
+				<string name="Name">top</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>1.99999952</X>
+					<Y>0.999999821</Y>
+					<Z>4</Z>
+				</Vector3>
+			</Properties>
+			<Item class="ManualWeld" referent="RBX109">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>0.999999762</X>
+						<Y>-0.499999911</Y>
+						<Z>2</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>0</R11>
+						<R12>-1</R12>
+						<R20>-0</R20>
+						<R21>1</R21>
+						<R22>0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>0.500001907</X>
+						<Y>0.500021935</Y>
+						<Z>2.00006104</Z>
+						<R00>1.00000191</R00>
+						<R01>-0.00013947321</R01>
+						<R02>4.67639547e-005</R02>
+						<R10>4.65759294e-005</R10>
+						<R11>-7.80143382e-005</R11>
+						<R12>-1.00002956</R12>
+						<R20>0.000139802127</R20>
+						<R21>1.00003052</R21>
+						<R22>-7.80087939e-005</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-top Strong Joint</string>
+					<Ref name="Part0">RBX104</Ref>
+					<Ref name="Part1">RBX83</Ref>
+					<int name="Surface0">4</int>
+					<int name="Surface1">1</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX110">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>0.999999762</X>
+						<Y>-0.499999911</Y>
+						<Z>-2</Z>
+						<R00>-1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>-1</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>0.499562263</X>
+						<Y>-1.00008297</Y>
+						<Z>1.00030708</Z>
+						<R00>4.39526775e-006</R00>
+						<R01>-1.00002956</R01>
+						<R02>4.35381662e-005</R02>
+						<R10>0.000177536043</R10>
+						<R11>4.35378752e-005</R11>
+						<R12>1.00003052</R12>
+						<R20>-1.00000191</R20>
+						<R21>-4.56348425e-006</R21>
+						<R22>0.00017721203</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-top Strong Joint</string>
+					<Ref name="Part0">RBX104</Ref>
+					<Ref name="Part1">RBX111</Ref>
+					<int name="Surface0">5</int>
+					<int name="Surface1">4</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX112">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>-0.999999762</X>
+						<Y>-0.499999911</Y>
+						<Z>2</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>0.500346184</X>
+						<Y>0.999998093</Y>
+						<Z>0.99941349</Z>
+						<R00>-1.035893e-005</R00>
+						<R01>-1.00002956</R01>
+						<R02>-2.63389666e-009</R02>
+						<R10>-1.00000191</R10>
+						<R11>1.05350264e-005</R11>
+						<R12>6.92098911e-006</R12>
+						<R20>-7.2500593e-006</R20>
+						<R21>1.65164238e-009</R21>
+						<R22>-1.00003052</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-top Strong Joint</string>
+					<Ref name="Part0">RBX104</Ref>
+					<Ref name="Part1">RBX80</Ref>
+					<int name="Surface0">2</int>
+					<int name="Surface1">0</int>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part" referent="RBX97">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">1019</int>
+				<CoordinateFrame name="CFrame">
+					<X>6.00000048</X>
+					<Y>14.9000006</Y>
+					<Z>3.00000024</Z>
+					<R00>1.00000048</R00>
+					<R01>5.15888678e-005</R01>
+					<R02>-9.37523291e-005</R02>
+					<R10>-5.15482279e-005</R10>
+					<R11>1.00000739</R11>
+					<R12>-4.53310167e-005</R12>
+					<R20>9.38313897e-005</R20>
+					<R21>4.53356442e-005</R21>
+					<R22>1.00000763</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">1056</token>
+				<string name="Name">top</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>1.99999952</X>
+					<Y>0.999999821</Y>
+					<Z>4</Z>
+				</Vector3>
+			</Properties>
+			<Item class="ManualWeld" referent="RBX113">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>0.999999762</X>
+						<Y>-0.499999911</Y>
+						<Z>2</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>0</R11>
+						<R12>-1</R12>
+						<R20>-0</R20>
+						<R21>1</R21>
+						<R22>0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>0.5</X>
+						<Y>0.500014305</Y>
+						<Z>2.00005627</Z>
+						<R00>1.00000191</R00>
+						<R01>1.48757607e-007</R01>
+						<R02>4.28431122e-008</R02>
+						<R10>2.20989477e-007</R10>
+						<R11>-8.96397978e-008</R11>
+						<R12>-1.00002956</R12>
+						<R20>1.79495089e-007</R20>
+						<R21>1.00003052</R21>
+						<R22>-8.87534952e-008</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-top Strong Joint</string>
+					<Ref name="Part0">RBX97</Ref>
+					<Ref name="Part1">RBX88</Ref>
+					<int name="Surface0">4</int>
+					<int name="Surface1">1</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX114">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>-0.999999762</X>
+						<Y>-0.499999911</Y>
+						<Z>2</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>0.50026989</X>
+						<Y>1.00020885</Y>
+						<Z>1.0004549</Z>
+						<R00>-2.67258883e-007</R00>
+						<R01>-1.00001478</R01>
+						<R02>1.30432709e-005</R02>
+						<R10>-1.00000095</R10>
+						<R11>1.78357141e-007</R11>
+						<R12>1.44720816e-005</R12>
+						<R20>-1.46359953e-005</R20>
+						<R21>-1.30428252e-005</R21>
+						<R22>-1.00001526</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-top Strong Joint</string>
+					<Ref name="Part0">RBX97</Ref>
+					<Ref name="Part1">RBX115</Ref>
+					<int name="Surface0">2</int>
+					<int name="Surface1">0</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX116">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>0.999999762</X>
+						<Y>-0.499999911</Y>
+						<Z>-2</Z>
+						<R00>-1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>-1</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>0.500021935</X>
+						<Y>-0.999983788</Y>
+						<Z>1.00000191</Z>
+						<R00>-7.33257475e-005</R00>
+						<R01>-1.00002956</R01>
+						<R02>0.000128098443</R02>
+						<R10>-6.37192272e-007</R10>
+						<R11>0.000128099287</R11>
+						<R12>1.00003052</R12>
+						<R20>-1.00000191</R20>
+						<R21>7.3505842e-005</R21>
+						<R22>-9.74869295e-007</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-top Strong Joint</string>
+					<Ref name="Part0">RBX97</Ref>
+					<Ref name="Part1">RBX78</Ref>
+					<int name="Surface0">5</int>
+					<int name="Surface1">4</int>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="WedgePart" referent="RBX85">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">107</int>
+				<CoordinateFrame name="CFrame">
+					<X>11.500001</X>
+					<Y>13.9000006</Y>
+					<Z>5.50000048</Z>
+					<R00>-9.89689433e-005</R00>
+					<R01>-0.000177206908</R01>
+					<R02>-1.00000048</R02>
+					<R10>-1.00000739</R10>
+					<R11>2.79288906e-005</R11>
+					<R12>9.89194232e-005</R12>
+					<R20>2.79115811e-005</R20>
+					<R21>1.00000763</R21>
+					<R22>-0.000177291658</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">1056</token>
+				<string name="Name">top</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<Vector3 name="size">
+					<X>1</X>
+					<Y>0.999999583</Y>
+					<Z>0.999999583</Z>
+				</Vector3>
+			</Properties>
+			<Item class="ManualWeld" referent="RBX117">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>-0.5</X>
+						<Y>-0.499999791</Y>
+						<Z>0.499999791</Z>
+						<R00>0</R00>
+						<R01>0</R01>
+						<R02>-1</R02>
+						<R10>-0</R10>
+						<R11>1</R11>
+						<R12>-0</R12>
+						<R20>1</R20>
+						<R21>0</R21>
+						<R22>0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>0.499789238</X>
+						<Y>-1.00033855</Y>
+						<Z>0.999900818</Z>
+						<R00>-1.06431798e-005</R00>
+						<R01>4.34921967e-005</R01>
+						<R02>-1.00001478</R02>
+						<R10>-0.00018429436</R10>
+						<R11>1.00001526</R11>
+						<R12>4.34936301e-005</R12>
+						<R20>1.00000095</R20>
+						<R21>0.000184135642</R21>
+						<R22>-1.07230589e-005</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-top Strong Joint</string>
+					<Ref name="Part0">RBX85</Ref>
+					<Ref name="Part1">RBX111</Ref>
+					<int name="Surface0">3</int>
+					<int name="Surface1">2</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX118">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>0.5</X>
+						<Y>-0.499999791</Y>
+						<Z>-0.499999791</Z>
+						<R00>0</R00>
+						<R01>0</R01>
+						<R02>1</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>-1</R20>
+						<R21>0</R21>
+						<R22>0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>2.9999752</X>
+						<Y>4.90001678</Y>
+						<Z>1.99979782</Z>
+						<R00>1</R00>
+						<R01>-8.31967627e-005</R01>
+						<R02>-4.98599875e-005</R02>
+						<R10>-4.98534937e-005</R10>
+						<R11>7.80067203e-005</R11>
+						<R12>-1</R12>
+						<R20>8.32006626e-005</R20>
+						<R21>1</R21>
+						<R22>7.8002573e-005</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-teleBeam Strong Joint</string>
+					<Ref name="Part0">RBX85</Ref>
+					<Ref name="Part1">RBX45</Ref>
+					<int name="Surface0">2</int>
+					<int name="Surface1">1</int>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part" referent="RBX102">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">107</int>
+				<CoordinateFrame name="CFrame">
+					<X>9</X>
+					<Y>13.9000006</Y>
+					<Z>5.49900007</Z>
+					<R00>-0.000448131846</R00>
+					<R01>9.91587585e-005</R01>
+					<R02>-1.00000036</R02>
+					<R10>-8.41218716e-005</R10>
+					<R11>1.00000739</R11>
+					<R12>9.91519046e-005</R12>
+					<R20>1.00000751</R20>
+					<R21>8.41661094e-005</R21>
+					<R22>-0.000448207487</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">1056</token>
+				<string name="Name">top</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>0.999999523</X>
+					<Y>0.999999821</Y>
+					<Z>4</Z>
+				</Vector3>
+			</Properties>
+			<Item class="ManualWeld" referent="RBX119">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>-0.499999762</X>
+						<Y>-0.499999911</Y>
+						<Z>2</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>0.500163078</X>
+						<Y>-0.499790192</Y>
+						<Z>0.50194931</Z>
+						<R00>5.42741582e-005</R00>
+						<R01>-1.00002921</R01>
+						<R02>7.50973413e-007</R02>
+						<R10>0.000361060258</R10>
+						<R11>5.95049642e-007</R11>
+						<R12>1.00000167</R12>
+						<R20>-1.00003028</R20>
+						<R21>-5.42730268e-005</R21>
+						<R22>0.000361403247</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-top Strong Joint</string>
+					<Ref name="Part0">RBX102</Ref>
+					<Ref name="Part1">RBX90</Ref>
+					<int name="Surface0">2</int>
+					<int name="Surface1">4</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX120">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>0.499999762</X>
+						<Y>-0.499999911</Y>
+						<Z>-2</Z>
+						<R00>-1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>-1</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>0.500195503</X>
+						<Y>0.500267029</Y>
+						<Z>0.500312805</Z>
+						<R00>-0.000112080015</R00>
+						<R01>-1.00002921</R01>
+						<R02>2.40048394e-007</R02>
+						<R10>-1.00003028</R10>
+						<R11>0.000112079142</R11>
+						<R12>0.000270921912</R12>
+						<R20>-0.000270576391</R20>
+						<R21>-3.85258318e-007</R21>
+						<R22>-1.00000167</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-top Strong Joint</string>
+					<Ref name="Part0">RBX102</Ref>
+					<Ref name="Part1">RBX85</Ref>
+					<int name="Surface0">5</int>
+					<int name="Surface1">0</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX121">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>0.499999762</X>
+						<Y>-0.499999911</Y>
+						<Z>2</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>0</R11>
+						<R12>-1</R12>
+						<R20>-0</R20>
+						<R21>1</R21>
+						<R22>0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>-2.00042152</X>
+						<Y>4.90013409</Y>
+						<Z>2.99857998</Z>
+						<R00>-0.000354116084</R00>
+						<R01>-0.99999994</R01>
+						<R02>-5.00603419e-005</R02>
+						<R10>-3.40565166e-005</R10>
+						<R11>5.00724018e-005</R11>
+						<R12>-1</R12>
+						<R20>0.99999994</R20>
+						<R21>-0.000354114425</R21>
+						<R22>-3.40742481e-005</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-teleBeam Strong Joint</string>
+					<Ref name="Part0">RBX102</Ref>
+					<Ref name="Part1">RBX45</Ref>
+					<int name="Surface0">4</int>
+					<int name="Surface1">1</int>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="WedgePart" referent="RBX90">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">107</int>
+				<CoordinateFrame name="CFrame">
+					<X>6.50000048</X>
+					<Y>13.901001</Y>
+					<Z>5.50000048</Z>
+					<R00>-9.98929027e-005</R00>
+					<R01>-1.00000048</R01>
+					<R02>8.68226125e-005</R02>
+					<R10>-1.00000739</R10>
+					<R11>9.98509422e-005</R11>
+					<R12>2.98857576e-005</R12>
+					<R20>-2.98942232e-005</R20>
+					<R21>-8.69009673e-005</R21>
+					<R22>-1.00000763</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">1056</token>
+				<string name="Name">top</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<Vector3 name="size">
+					<X>1</X>
+					<Y>0.999999583</Y>
+					<Z>0.999999583</Z>
+				</Vector3>
+			</Properties>
+			<Item class="ManualWeld" referent="RBX122">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>0.5</X>
+						<Y>-0.499999791</Y>
+						<Z>-0.499999791</Z>
+						<R00>0</R00>
+						<R01>0</R01>
+						<R02>1</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>-1</R20>
+						<R21>0</R21>
+						<R22>0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>-1.99985313</X>
+						<Y>4.90034866</Y>
+						<Z>3.00060177</Z>
+						<R00>7.1903296e-006</R00>
+						<R01>-1</R01>
+						<R02>-5.07893819e-005</R02>
+						<R10>2.01969324e-005</R10>
+						<R11>5.07895274e-005</R11>
+						<R12>-1</R12>
+						<R20>1</R20>
+						<R21>7.18930414e-006</R21>
+						<R22>2.01972962e-005</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-teleBeam Strong Joint</string>
+					<Ref name="Part0">RBX90</Ref>
+					<Ref name="Part1">RBX45</Ref>
+					<int name="Surface0">2</int>
+					<int name="Surface1">1</int>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="WedgePart" referent="RBX111">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">1019</int>
+				<CoordinateFrame name="CFrame">
+					<X>12.000001</X>
+					<Y>14.9000006</Y>
+					<Z>6.00000048</Z>
+					<R00>-8.84220644e-005</R00>
+					<R01>7.22971072e-006</R01>
+					<R02>-1.00000048</R02>
+					<R10>-1.00000739</R10>
+					<R11>7.14055859e-005</R11>
+					<R12>8.83779358e-005</R12>
+					<R20>7.14064518e-005</R20>
+					<R21>1.00000763</R21>
+					<R22>7.142718e-006</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">1056</token>
+				<string name="Name">top</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<Vector3 name="size">
+					<X>1</X>
+					<Y>1.99999976</Y>
+					<Z>1.99999976</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="Part" referent="RBX100">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">1019</int>
+				<CoordinateFrame name="CFrame">
+					<X>9</X>
+					<Y>14.9000006</Y>
+					<Z>6.00000048</Z>
+					<R00>1.76794515e-007</R00>
+					<R01>8.81579326e-005</R01>
+					<R02>1.00000048</R02>
+					<R10>1.05894178e-005</R10>
+					<R11>1.00000739</R11>
+					<R12>-8.81132946e-005</R12>
+					<R20>-1.00000763</R20>
+					<R21>1.0589225e-005</R21>
+					<R22>2.56587668e-007</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">1056</token>
+				<string name="Name">top</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>1.99999952</X>
+					<Y>0.999999821</Y>
+					<Z>4</Z>
+				</Vector3>
+			</Properties>
+			<Item class="ManualWeld" referent="RBX123">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>0.999999762</X>
+						<Y>-0.499999911</Y>
+						<Z>2</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>0</R11>
+						<R12>-1</R12>
+						<R20>-0</R20>
+						<R21>1</R21>
+						<R22>0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>-0.500048637</X>
+						<Y>0.500023842</Y>
+						<Z>-1.99995041</Z>
+						<R00>-1.00003004</R00>
+						<R01>-0.00044779462</R01>
+						<R02>7.35740177e-005</R02>
+						<R10>-7.35780632e-005</R10>
+						<R11>1.10890905e-005</R11>
+						<R12>-1.00002897</R12>
+						<R20>0.000448133651</R20>
+						<R21>-1.00000143</R21>
+						<R22>-1.09461653e-005</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-top Strong Joint</string>
+					<Ref name="Part0">RBX100</Ref>
+					<Ref name="Part1">RBX102</Ref>
+					<int name="Surface0">4</int>
+					<int name="Surface1">1</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX124">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>0.999999762</X>
+						<Y>-0.499999911</Y>
+						<Z>-2</Z>
+						<R00>-1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>-1</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>0.500136375</X>
+						<Y>-0.999790192</Y>
+						<Z>1.00015831</Z>
+						<R00>-2.17037577e-005</R00>
+						<R01>-1.00002933</R01>
+						<R02>-3.61239508e-005</R02>
+						<R10>-7.91026832e-005</R10>
+						<R11>-3.62993997e-005</R11>
+						<R12>1.00000167</R12>
+						<R20>-1.00003028</R20>
+						<R21>2.17075212e-005</R21>
+						<R22>-7.87773533e-005</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-top Strong Joint</string>
+					<Ref name="Part0">RBX100</Ref>
+					<Ref name="Part1">RBX115</Ref>
+					<int name="Surface0">5</int>
+					<int name="Surface1">4</int>
+				</Properties>
+			</Item>
+			<Item class="ManualWeld" referent="RBX125">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>-0.999999762</X>
+						<Y>-0.499999911</Y>
+						<Z>2</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>0.500065804</X>
+						<Y>0.999947548</Y>
+						<Z>1.00001526</Z>
+						<R00>-8.19969719e-005</R00>
+						<R01>-1.00002933</R01>
+						<R02>-2.64124537e-007</R02>
+						<R10>-1.00003028</R10>
+						<R11>8.19959459e-005</R11>
+						<R12>7.39959933e-006</R12>
+						<R20>-7.08086418e-006</R20>
+						<R21>8.86211637e-008</R21>
+						<R22>-1.00000167</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-top Strong Joint</string>
+					<Ref name="Part0">RBX100</Ref>
+					<Ref name="Part1">RBX111</Ref>
+					<int name="Surface0">2</int>
+					<int name="Surface1">0</int>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="WedgePart" referent="RBX115">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">1019</int>
+				<CoordinateFrame name="CFrame">
+					<X>6.00000048</X>
+					<Y>14.901001</Y>
+					<Z>6.00000048</Z>
+					<R00>-5.2035517e-005</R00>
+					<R01>-1.00000048</R01>
+					<R02>7.94424705e-005</R02>
+					<R10>-1.00000739</R10>
+					<R11>5.19931928e-005</R11>
+					<R12>3.22881242e-005</R12>
+					<R20>-3.22920532e-005</R20>
+					<R21>-7.95220767e-005</R21>
+					<R22>-1.00000763</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">1056</token>
+				<string name="Name">top</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<Vector3 name="size">
+					<X>1</X>
+					<Y>1.99999976</Y>
+					<Z>1.99999976</Z>
+				</Vector3>
+			</Properties>
+			<Item class="ManualWeld" referent="RBX126">
+				<Properties>
+					<CoordinateFrame name="C0">
+						<X>0.5</X>
+						<Y>-0.999999881</Y>
+						<Z>-0.999999881</Z>
+						<R00>0</R00>
+						<R01>0</R01>
+						<R02>1</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>-1</R20>
+						<R21>0</R21>
+						<R22>0</R22>
+					</CoordinateFrame>
+					<CoordinateFrame name="C1">
+						<X>-0.499917984</X>
+						<Y>-0.499965668</Y>
+						<Z>-1.50002003</Z>
+						<R00>2.40379086e-006</R00>
+						<R01>4.80771887e-005</R01>
+						<R02>1.00002921</R02>
+						<R10>-8.12517374e-006</R10>
+						<R11>1.00000167</R11>
+						<R12>-4.79003138e-005</R12>
+						<R20>-1.00003028</R20>
+						<R21>-7.79262609e-006</R21>
+						<R22>2.40326153e-006</R22>
+					</CoordinateFrame>
+					<string name="Name">top-to-top Strong Joint</string>
+					<Ref name="Part0">RBX115</Ref>
+					<Ref name="Part1">RBX90</Ref>
+					<int name="Surface0">2</int>
+					<int name="Surface1">3</int>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Script" referent="RBX127">
+			<Properties>
+				<bool name="Disabled">false</bool>
+				<Content name="LinkedSource"><null></null></Content>
+				<string name="Name">TouchScript</string>
+				<ProtectedString name="Source">local teleporter = script.Parent
+
+local beam_1 = teleporter.teleBeam1
+local beam_2 = teleporter.teleBeam2
+local beam_3 = teleporter.teleBeam3
+
+local spinCo 
+
+local vCharacter
+local torso
+local humanoid
+
+function spin()
+&#9;if vCharacter and torso and humanoid then &#9;&#9;
+&#9;&#9;humanoid.WalkSpeed = 0.0
+&#9;&#9;torso.CFrame = beam_2.CFrame&#9;+ Vector3.new(0, -2, 0)&#9;
+&#9;&#9;bg = Instance.new(&quot;BodyGyro&quot;)
+&#9;&#9;bg.Name = &quot;Spin&quot;
+&#9;&#9;bg.maxTorque = Vector3.new(100000, 100000, 100000)
+&#9;&#9;bg.P = 100000
+&#9;&#9;bg.Parent = torso
+&#9;&#9;bg.cframe = torso.CFrame
+
+&#9;&#9;fire = Instance.new(&quot;Fire&quot;)
+&#9;&#9;fire.Parent = beam_3
+&#9;&#9;fire.Color = Color3.new(0, 0, 0.6)
+&#9;&#9;fire.SecondaryColor = Color3.new(0, 0, 0)
+&#9;&#9;fire.Heat = 20
+&#9;&#9;fire.Size = 5
+&#9;&#9;
+&#9;&#9;bv = Instance.new(&quot;BodyVelocity&quot;)
+&#9;&#9;bv.Name = &quot;Rise&quot;
+&#9;&#9;bv.Parent = torso
+&#9;&#9;bv.P = 100000
+&#9;&#9;bv.maxForce = Vector3.new(0, bv.P, 0)
+&#9;&#9;local v = Vector3.new(0, 0.1, 0)
+&#9;&#9;for i = 1, 180 do 
+&#9;&#9;&#9;bg.cframe = torso.CFrame * CFrame.Angles(0, i * math.pi/10, 0)
+&#9;&#9;&#9;bv.velocity = v * i/10
+&#9;&#9;&#9;wait()
+&#9;&#9;end
+&#9;&#9;if bg then bg:Remove() end&#9;
+&#9;&#9;if bv then bv:Remove () end
+&#9;&#9;if fire then fire:Remove() end
+&#9;&#9;humanoid.WalkSpeed = 16.0&#9;&#9;
+&#9;end
+end
+
+function tele(hit) 
+&#9;print(&quot;In function&quot;)
+&#9;if not hit or not hit.Parent then return end 
+&#9;print(&quot;found hit&quot;)
+&#9;humanoid = hit.Parent:FindFirstChild(&quot;Humanoid&quot;) 
+&#9;torso = hit.Parent:FindFirstChild(&quot;Torso&quot;)
+&#9;if not humanoid then return end 
+&#9;if not torso then return end
+&#9;print(&quot;Found humanoid&quot;)
+&#9;vCharacter = hit.Parent 
+&#9;if vCharacter then 
+&#9;&#9;print(&quot;Found character&quot;)&#9;&#9;&#9;
+&#9;&#9;tp = vCharacter:FindFirstChild(&quot;TeleportScript&quot;)
+&#9;&#9;if spinCo == nil or coroutine.status(spinCo) == &apos;dead&apos; then
+&#9;&#9;&#9;spinCo = coroutine.create(spin)
+&#9;&#9;&#9;coroutine.resume(spinCo)
+&#9;&#9;end
+&#9;&#9;if tp == nil then 
+&#9;&#9;&#9;print(&quot;Cloning Script&quot;)
+&#9;&#9;&#9;tp = script.TeleportScript:Clone() 
+&#9;&#9;&#9;tp.Parent = vCharacter
+&#9;&#9;&#9;place = teleporter.PlaceId:Clone()
+&#9;&#9;&#9;place.Parent = tp
+&#9;&#9;&#9;destination = teleporter.DestinationSpawnName:Clone()
+&#9;&#9;&#9;destination.Parent = tp
+&#9;&#9;&#9;wait(1.0) 
+&#9;&#9;&#9;tp.Disabled = false 
+&#9;&#9;else
+&#9;&#9;&#9;wait(1.0)
+&#9;&#9;&#9;tp.Disabled = true
+&#9;&#9;&#9;wait(0.1)
+&#9;&#9;&#9;tp.Disabled = false 
+&#9;&#9;end
+&#9;end 
+end
+
+beam_1.Touched:connect(tele)
+beam_2.Touched:connect(tele)
+beam_3.Touched:connect(tele)
+
+
+</ProtectedString>
+			</Properties>
+			<Item class="LocalScript" referent="RBX128">
+				<Properties>
+					<bool name="Disabled">true</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">TeleportScript</string>
+					<ProtectedString name="Source">local place = script:FindFirstChild(&quot;PlaceId&quot;)
+local spawn = script:FindFirstChild(&quot;DestinationSpawnName&quot;)
+
+local placeId
+local spawnName
+if place then
+&#9;placeId = place.Value
+&#9;if spawn and spawn.Value then
+&#9;&#9;spawnName = spawn.Value
+&#9;&#9;game:GetService(&quot;TeleportService&quot;):TeleportToSpawnByName(placeId, spawnName)
+&#9;else
+&#9;&#9;game:GetService(&quot;TeleportService&quot;):Teleport(placeId)
+&#9;end
+end
+</ProtectedString>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="SpawnLocation" referent="RBX129">
+			<Properties>
+				<bool name="AllowTeamChangeOnTouch">false</bool>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">2</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">4</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">194</int>
+				<CoordinateFrame name="CFrame">
+					<X>9.08700085</X>
+					<Y>15.500001</Y>
+					<Z>3.00000024</Z>
+					<R00>1.00000048</R00>
+					<R01>4.91015999e-005</R01>
+					<R02>-9.40139362e-005</R02>
+					<R10>-4.90614002e-005</R10>
+					<R11>1.00000739</R11>
+					<R12>-5.00824863e-005</R12>
+					<R20>9.4092873e-005</R20>
+					<R21>5.00868955e-005</R21>
+					<R22>1.00000763</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<int name="Duration">10</int>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">2</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">2</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">true</bool>
+				<token name="Material">256</token>
+				<string name="Name">TeleportSpawn</string>
+				<bool name="Neutral">true</bool>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">2</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<int name="TeamColor">194</int>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>4</X>
+					<Y>0.200000003</Y>
+					<Z>4</Z>
+				</Vector3>
+			</Properties>
+			<Item class="Decal" referent="RBX130">
+				<Properties>
+					<token name="Face">1</token>
+					<string name="Name">Decal</string>
+					<float name="Shiny">20</float>
+					<float name="Specular">0</float>
+					<Content name="Texture"><url>rbxasset://Textures/SpawnLocation.png</url></Content>
+					<float name="Transparency">0</float>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="StringValue" referent="RBX131">
+			<Properties>
+				<string name="Name">ThisSpawnName</string>
+				<string name="Value"></string>
+			</Properties>
+		</Item>
+		<Item class="IntValue" referent="RBX132">
+			<Properties>
+				<string name="Name">PlaceId</string>
+				<int name="Value">41324860</int>
+			</Properties>
+		</Item>
+		<Item class="StringValue" referent="RBX133">
+			<Properties>
+				<string name="Name">DestinationSpawnName</string>
+				<string name="Value">CrossRoadsSpawn</string>
+			</Properties>
+		</Item>
+	</Item>
+</roblox>
